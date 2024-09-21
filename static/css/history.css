@@ -1,0 +1,109 @@
+.history-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.history-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.history-item p {
+    color: var(--light-text-color);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.btn-secondary {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-button .material-icons {
+    margin-right: 5px;
+}
+
+/* 调整导航栏布局 */
+.navbar {
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.welcome-message {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-button .material-icons {
+    margin-right: 5px;
+}
+
+/* ... 其他现有的样式 ... */

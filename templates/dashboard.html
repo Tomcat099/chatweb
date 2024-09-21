@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - AI 助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">AI 助手</div>
+            <div class="nav-links">
+                <span class="welcome-message">欢迎，{{ user.username }}</span>
+                <a href="{{ url_for('main.chat', user_id=user.id) }}" class="nav-link">
+                    <img src="{{ url_for('static', filename='svg/对话.svg') }}" alt="开始对话" class="nav-icon">
+                    开始对话
+                </a>
+                <a href="{{ url_for('auth.logout') }}" class="nav-link">
+                    <img src="{{ url_for('static', filename='svg/退出.svg') }}" alt="登出" class="nav-icon">
+                    登出
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main class="dashboard">
+        <div class="user-card">
+            <img src="{{ user.avatar }}" alt="用户头像" class="avatar">
+            <h1>{{ user.username }}</h1>
+            <p class="email">{{ user.email }}</p>
+            <div class="user-stats">
+                <div class="stat">
+                    <img src="{{ url_for('static', filename='svg/时间.svg') }}" alt="上次登录时间" class="stat-icon">
+                    <span>上次登录：{{ user.last_login_at.strftime('%Y-%m-%d %H:%M:%S') if user.last_login_at else '首次登录' }}</span>
+                </div>
+                <div class="stat">
+                    <img src="{{ url_for('static', filename='svg/累计次数.svg') }}" alt="登录次数" class="stat-icon">
+                    <span>登录次数：{{ user.login_count }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="action-cards">
+            <a href="{{ url_for('main.chat', user_id=user.id) }}" class="action-card">
+                <img src="{{ url_for('static', filename='svg/对话.svg') }}" alt="开始新对话" class="action-icon">
+                <span>开始新对话</span>
+            </a>
+            <a href="{{ url_for('main.history') }}" class="action-card">
+                <img src="{{ url_for('static', filename='svg/历史记录.svg') }}" alt="查看历史对话" class="action-icon">
+                <span>查看历史对话</span>
+            </a>
+            <a href="{{ url_for('auth.edit_profile') }}" class="action-card">
+                <img src="{{ url_for('static', filename='svg/编辑.svg') }}" alt="编辑个人信息" class="action-icon">
+                <span>编辑个人信息</span>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

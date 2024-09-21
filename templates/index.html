@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 助手 - 智能对话的未来</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">AI 助手</div>
+            <div class="nav-links">
+                <a href="{{ url_for('auth.login') }}" class="nav-link">登录</a>
+                <a href="{{ url_for('auth.register') }}" class="nav-link">注册</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="hero">
+            <h1>探索智能对话的无限可能</h1>
+            <p class="subtitle">与AI进行自然、流畅的对话交流</p>
+            <a href="{{ url_for('main.chat_redirect') }}" class="btn btn-primary">开始对话</a>
+        </div>
+    </main>
+</body>
+</html>

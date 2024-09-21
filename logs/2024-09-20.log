@@ -1,0 +1,2525 @@
+2024-09-20 09:45:24,429 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 09:45:24,443 - app - INFO - Request: GET http://127.0.0.1:8080/login?next=/
+2024-09-20 09:45:24,490 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 09:45:24,632 - app - INFO - Request: GET http://127.0.0.1:8080/favicon.ico
+2024-09-20 09:45:24,632 - app - WARNING - 404 error: http://127.0.0.1:8080/favicon.ico
+2024-09-20 09:45:31,761 - app - INFO - Request: POST http://127.0.0.1:8080/login?next=/
+2024-09-20 09:45:31,763 - app - INFO - Login attempt: 11
+2024-09-20 09:45:32,029 - app - INFO - 用户 'tom' logged in
+2024-09-20 09:45:32,044 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 09:45:32,044 - app - INFO - User: tom
+2024-09-20 09:45:32,049 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 09:45:32,112 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 09:45:32,113 - app - INFO - User: tom
+2024-09-20 09:45:32,122 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 09:45:32,124 - app - INFO - User: tom
+2024-09-20 09:45:32,125 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 09:45:32,127 - app - INFO - User: tom
+2024-09-20 09:45:32,128 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 09:45:32,130 - app - INFO - User: tom
+2024-09-20 09:45:32,151 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 09:45:32,152 - app - INFO - User: tom
+2024-09-20 09:45:32,158 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 09:45:32,159 - app - INFO - User: tom
+2024-09-20 09:45:32,164 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 09:45:32,188 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 09:45:32,188 - app - INFO - User: tom
+2024-09-20 09:45:34,942 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 09:45:34,943 - app - INFO - User: tom
+2024-09-20 09:45:34,943 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/29
+2024-09-20 09:45:34,943 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 29
+2024-09-20 09:45:34,944 - app - INFO - User: tom
+2024-09-20 09:45:34,947 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 29
+2024-09-20 09:45:35,515 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 09:45:35,516 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/30
+2024-09-20 09:45:35,516 - app - INFO - User: tom
+2024-09-20 09:45:35,516 - app - INFO - User: tom
+2024-09-20 09:45:35,517 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 30
+2024-09-20 09:45:35,519 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 30
+2024-09-20 09:45:36,041 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 09:45:36,041 - app - INFO - User: tom
+2024-09-20 09:45:36,042 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/27
+2024-09-20 09:45:36,042 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 27
+2024-09-20 09:45:36,043 - app - INFO - User: tom
+2024-09-20 09:45:36,047 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 27
+2024-09-20 09:45:36,681 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 09:45:36,681 - app - INFO - User: tom
+2024-09-20 09:45:36,681 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/29
+2024-09-20 09:45:36,682 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 29
+2024-09-20 09:45:36,682 - app - INFO - User: tom
+2024-09-20 09:45:36,685 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 29
+2024-09-20 09:45:37,175 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 09:45:37,176 - app - INFO - User: tom
+2024-09-20 09:45:37,176 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/30
+2024-09-20 09:45:37,176 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 30
+2024-09-20 09:45:37,177 - app - INFO - User: tom
+2024-09-20 09:45:37,179 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 30
+2024-09-20 09:45:38,245 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 09:45:38,245 - app - INFO - User: tom
+2024-09-20 09:45:38,247 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/27
+2024-09-20 09:45:38,247 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 27
+2024-09-20 09:45:38,248 - app - INFO - User: tom
+2024-09-20 09:45:38,250 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 27
+2024-09-20 09:45:41,251 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 09:45:41,252 - app - INFO - User: tom
+2024-09-20 09:45:41,252 - app - INFO - 用户 'tom' logged out
+2024-09-20 09:45:41,261 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 09:45:41,306 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 09:45:42,561 - app - INFO - Request: GET http://127.0.0.1:8080/register
+2024-09-20 09:45:42,605 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 09:45:53,748 - app - INFO - Request: POST http://127.0.0.1:8080/register
+2024-09-20 09:45:53,979 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 09:45:54,027 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 09:45:56,400 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 09:45:56,400 - app - INFO - Login attempt: 13
+2024-09-20 09:45:56,626 - app - INFO - 用户 'tttt' logged in
+2024-09-20 09:45:56,638 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 09:45:56,638 - app - INFO - User: tttt
+2024-09-20 09:45:56,638 - app - INFO - 用户 'tttt' 访问了主页
+2024-09-20 09:45:56,685 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 09:45:56,686 - app - INFO - User: tttt
+2024-09-20 09:45:56,687 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 09:45:56,688 - app - INFO - User: tttt
+2024-09-20 09:45:56,701 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 09:45:56,705 - app - INFO - User: tttt
+2024-09-20 09:45:56,708 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 09:45:56,709 - app - INFO - User: tttt
+2024-09-20 09:45:56,723 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 09:45:56,724 - app - INFO - User: tttt
+2024-09-20 09:45:56,727 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 09:45:56,728 - app - INFO - User: tttt
+2024-09-20 09:45:56,732 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tttt 的所有历史记录
+2024-09-20 14:21:48,311 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 14:21:48,312 - app - INFO - User: tom
+2024-09-20 14:21:48,312 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:21:48,369 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 14:21:48,371 - app - INFO - User: tom
+2024-09-20 14:21:48,376 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 14:21:48,378 - app - INFO - User: tom
+2024-09-20 14:21:48,379 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 14:21:48,381 - app - INFO - User: tom
+2024-09-20 14:21:48,438 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 14:21:48,438 - app - INFO - User: tom
+2024-09-20 14:21:48,624 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 14:21:48,624 - app - INFO - User: tom
+2024-09-20 14:21:48,631 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 14:21:48,631 - app - INFO - User: tom
+2024-09-20 14:21:48,636 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 14:21:48,676 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 14:21:48,677 - app - INFO - User: tom
+2024-09-20 14:21:53,763 - app - INFO - Request: GET http://127.0.0.1:8080/home
+2024-09-20 14:21:53,764 - app - INFO - User: tom
+2024-09-20 14:21:53,764 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:21:53,765 - app - ERROR - Unhandled exception: home.html
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 122, in indes
+    return render_template('home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: home.html
+2024-09-20 14:22:36,369 - app - INFO - Request: GET http://127.0.0.1:8080/home
+2024-09-20 14:22:36,370 - app - INFO - User: tom
+2024-09-20 14:22:36,370 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:25:48,647 - app - INFO - Request: GET http://127.0.0.1:8080/home
+2024-09-20 14:25:48,648 - app - INFO - User: tom
+2024-09-20 14:25:48,649 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:26:30,513 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 14:26:30,513 - app - INFO - User: tom
+2024-09-20 14:26:30,514 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:26:39,547 - app - INFO - Request: GET http://127.0.0.1:8080/chat
+2024-09-20 14:26:39,547 - app - INFO - User: tom
+2024-09-20 14:26:39,548 - app - WARNING - 404 error: http://127.0.0.1:8080/chat
+2024-09-20 14:27:13,374 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:27:13,374 - app - INFO - User: tom
+2024-09-20 14:27:13,419 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 14:27:13,419 - app - INFO - User: tom
+2024-09-20 14:27:16,625 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:27:16,626 - app - INFO - User: tom
+2024-09-20 14:27:16,627 - app - INFO - Login attempt: 11
+2024-09-20 14:27:16,858 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:27:16,859 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'))
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:27:20,243 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:27:20,243 - app - INFO - User: tom
+2024-09-20 14:27:22,001 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:27:22,001 - app - INFO - User: tom
+2024-09-20 14:27:22,002 - app - INFO - Login attempt: 11
+2024-09-20 14:27:22,224 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:27:22,225 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'))
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:28:31,522 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:28:31,522 - app - INFO - User: tom
+2024-09-20 14:28:31,567 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 14:28:31,567 - app - INFO - User: tom
+2024-09-20 14:28:34,668 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:28:34,669 - app - INFO - User: tom
+2024-09-20 14:28:34,671 - app - INFO - Login attempt: 11
+2024-09-20 14:28:34,895 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:28:34,896 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'))
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:29:30,932 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:29:30,933 - app - INFO - User: tom
+2024-09-20 14:29:30,935 - app - INFO - Login attempt: 11
+2024-09-20 14:29:31,161 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:29:31,162 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'), user_id=user.id)
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:29:33,336 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:29:33,336 - app - INFO - User: tom
+2024-09-20 14:29:33,374 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 14:29:33,374 - app - INFO - User: tom
+2024-09-20 14:29:36,667 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:29:36,667 - app - INFO - User: tom
+2024-09-20 14:29:36,668 - app - INFO - Login attempt: 11
+2024-09-20 14:29:36,892 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:29:36,893 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'), user_id=user.id)
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:30:25,011 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:30:25,012 - app - INFO - User: tom
+2024-09-20 14:30:25,061 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 14:30:25,061 - app - INFO - User: tom
+2024-09-20 14:30:27,958 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:30:27,958 - app - INFO - User: tom
+2024-09-20 14:30:27,960 - app - INFO - Login attempt: 11
+2024-09-20 14:30:28,189 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:30:28,190 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'), user_id=current_user.id)
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:32:08,386 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 14:32:08,386 - app - INFO - User: tom
+2024-09-20 14:32:08,387 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:32:17,120 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:32:17,120 - app - INFO - User: tom
+2024-09-20 14:32:17,175 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 14:32:17,176 - app - INFO - User: tom
+2024-09-20 14:32:19,798 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:32:19,799 - app - INFO - User: tom
+2024-09-20 14:32:19,801 - app - INFO - Login attempt: 11
+2024-09-20 14:32:20,030 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:32:20,030 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\auth.py", line 43, in login
+    return redirect(url_for('main.chat'), user_id=user.id)
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\helpers.py", line 220, in url_for
+    return current_app.url_for(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 14:33:44,078 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 14:33:44,078 - app - INFO - User: tom
+2024-09-20 14:33:44,079 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 14:33:57,480 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 14:33:57,481 - app - INFO - User: tom
+2024-09-20 14:33:57,531 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 14:33:57,532 - app - INFO - User: tom
+2024-09-20 14:34:00,649 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 14:34:00,649 - app - INFO - User: tom
+2024-09-20 14:34:00,651 - app - INFO - Login attempt: 11
+2024-09-20 14:34:00,877 - app - INFO - 用户 'tom' logged in
+2024-09-20 14:34:00,890 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 14:34:00,890 - app - INFO - User: tom
+2024-09-20 14:34:00,890 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 14:34:00,945 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 14:34:00,947 - app - INFO - User: tom
+2024-09-20 14:34:00,957 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 14:34:00,957 - app - INFO - User: tom
+2024-09-20 14:34:00,958 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 14:34:00,958 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 14:34:00,959 - app - INFO - User: tom
+2024-09-20 14:34:00,969 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 14:34:00,971 - app - INFO - User: tom
+2024-09-20 14:34:00,989 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 14:34:00,990 - app - INFO - User: tom
+2024-09-20 14:34:00,995 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 14:34:00,996 - app - INFO - User: tom
+2024-09-20 14:34:01,000 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 14:34:01,021 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 14:34:01,022 - app - INFO - User: tom
+2024-09-20 17:19:27,199 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:19:27,200 - app - INFO - User: tom
+2024-09-20 17:19:27,201 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:19:27,544 - app - INFO - Request: GET http://127.0.0.1:8080/favicon.ico
+2024-09-20 17:19:27,545 - app - INFO - User: tom
+2024-09-20 17:19:27,546 - app - WARNING - 404 error: http://127.0.0.1:8080/favicon.ico
+2024-09-20 17:19:35,700 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:19:35,700 - app - INFO - User: tom
+2024-09-20 17:19:35,757 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:19:35,757 - app - INFO - User: tom
+2024-09-20 17:19:38,489 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 17:19:38,490 - app - INFO - User: tom
+2024-09-20 17:19:38,492 - app - INFO - Login attempt: 11
+2024-09-20 17:19:38,717 - app - INFO - 用户 'tom' logged in
+2024-09-20 17:19:38,730 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 17:19:38,730 - app - INFO - User: tom
+2024-09-20 17:19:38,731 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 17:19:38,789 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 17:19:38,790 - app - INFO - User: tom
+2024-09-20 17:19:38,796 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:19:38,797 - app - INFO - User: tom
+2024-09-20 17:19:38,800 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:19:38,801 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 17:19:38,804 - app - INFO - User: tom
+2024-09-20 17:19:38,804 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 17:19:38,805 - app - INFO - User: tom
+2024-09-20 17:19:38,829 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 17:19:38,830 - app - INFO - User: tom
+2024-09-20 17:19:38,835 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 17:19:38,836 - app - INFO - User: tom
+2024-09-20 17:19:38,840 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 17:19:38,857 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 17:19:38,858 - app - INFO - User: tom
+2024-09-20 17:22:20,704 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 17:22:20,704 - app - INFO - User: tom
+2024-09-20 17:22:20,705 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 17:22:20,744 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 17:22:20,745 - app - INFO - User: tom
+2024-09-20 17:22:20,755 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:22:20,756 - app - INFO - User: tom
+2024-09-20 17:22:20,757 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 17:22:20,758 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:22:20,758 - app - INFO - User: tom
+2024-09-20 17:22:20,774 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 17:22:20,774 - app - INFO - User: tom
+2024-09-20 17:22:20,929 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 17:22:20,931 - app - INFO - User: tom
+2024-09-20 17:22:20,933 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 17:22:20,934 - app - INFO - User: tom
+2024-09-20 17:22:20,940 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 17:22:20,961 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 17:22:20,961 - app - INFO - User: tom
+2024-09-20 17:22:24,100 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:22:24,100 - app - INFO - User: tom
+2024-09-20 17:22:24,101 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:22:24,106 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 122, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "d:\chatAI\templates\index.html", line 16, in top-level template code
+    <p>已有账号？<a href="{{ url_for('main.chat') }}" class="link">直接进入问答界面</a></p>
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 17:22:25,723 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:22:25,723 - app - INFO - User: tom
+2024-09-20 17:22:25,724 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:22:25,731 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 122, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "d:\chatAI\templates\index.html", line 16, in top-level template code
+    <p>已有账号？<a href="{{ url_for('main.chat') }}" class="link">直接进入问答界面</a></p>
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 17:22:55,083 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:22:55,084 - app - INFO - User: tom
+2024-09-20 17:22:55,084 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:22:55,086 - app - ERROR - Unhandled exception: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 122, in index
+    return render_template('index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "d:\chatAI\templates\index.html", line 16, in top-level template code
+    <p>已有账号？<a href="{{ url_for('main.chat') }}" class="link">直接进入问答界面</a></p>
+    ^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'main.chat'. Did you forget to specify values ['user_id']?
+2024-09-20 17:31:55,359 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:31:55,359 - app - INFO - User: tom
+2024-09-20 17:31:55,360 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:31:55,408 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 17:31:55,409 - app - INFO - User: tom
+2024-09-20 17:31:55,413 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/index.js
+2024-09-20 17:31:55,414 - app - INFO - User: tom
+2024-09-20 17:31:59,511 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:31:59,511 - app - INFO - User: tom
+2024-09-20 17:31:59,557 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:31:59,558 - app - INFO - User: tom
+2024-09-20 17:32:02,014 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:32:02,014 - app - INFO - User: tom
+2024-09-20 17:32:02,056 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:32:02,056 - app - INFO - User: tom
+2024-09-20 17:32:04,452 - app - INFO - Request: GET http://127.0.0.1:8080/register
+2024-09-20 17:32:04,453 - app - INFO - User: tom
+2024-09-20 17:32:04,499 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:32:04,499 - app - INFO - User: tom
+2024-09-20 17:32:08,207 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:32:08,208 - app - INFO - User: tom
+2024-09-20 17:32:08,258 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:32:08,258 - app - INFO - User: tom
+2024-09-20 17:33:30,104 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:33:30,104 - app - INFO - User: tom
+2024-09-20 17:33:30,104 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:33:30,150 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 17:33:30,151 - app - INFO - User: tom
+2024-09-20 17:33:30,159 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/index.js
+2024-09-20 17:33:30,160 - app - INFO - User: tom
+2024-09-20 17:36:10,527 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:36:10,527 - app - INFO - User: tom
+2024-09-20 17:36:10,527 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:36:10,571 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 17:36:10,572 - app - INFO - User: tom
+2024-09-20 17:36:10,584 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/index.js
+2024-09-20 17:36:10,585 - app - INFO - User: tom
+2024-09-20 17:36:28,862 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:36:28,864 - app - INFO - User: tom
+2024-09-20 17:36:28,916 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:36:28,917 - app - INFO - User: tom
+2024-09-20 17:36:32,457 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 17:36:32,459 - app - INFO - User: tom
+2024-09-20 17:36:32,461 - app - INFO - Login attempt: 11
+2024-09-20 17:36:32,685 - app - INFO - 用户 'tom' logged in
+2024-09-20 17:36:32,695 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 17:36:32,696 - app - INFO - User: tom
+2024-09-20 17:36:32,696 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 17:36:32,749 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 17:36:32,749 - app - INFO - User: tom
+2024-09-20 17:36:32,762 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:36:32,763 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 17:36:32,763 - app - INFO - User: tom
+2024-09-20 17:36:32,764 - app - INFO - User: tom
+2024-09-20 17:36:32,765 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:36:32,773 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 17:36:32,775 - app - INFO - User: tom
+2024-09-20 17:36:32,791 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 17:36:32,791 - app - INFO - User: tom
+2024-09-20 17:36:32,796 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 17:36:32,798 - app - INFO - User: tom
+2024-09-20 17:36:32,802 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 17:36:32,821 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 17:36:32,822 - app - INFO - User: tom
+2024-09-20 17:40:32,545 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:40:32,545 - app - INFO - User: tom
+2024-09-20 17:40:32,545 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:40:32,603 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 17:40:32,603 - app - INFO - User: tom
+2024-09-20 17:40:32,640 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/index.js
+2024-09-20 17:40:32,641 - app - INFO - User: tom
+2024-09-20 17:40:32,696 - app - INFO - Request: GET http://127.0.0.1:8080/static/images/background.jpg
+2024-09-20 17:40:32,696 - app - INFO - User: tom
+2024-09-20 17:43:19,191 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:43:19,191 - app - INFO - User: tom
+2024-09-20 17:43:19,192 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:43:19,238 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 17:43:19,240 - app - INFO - User: tom
+2024-09-20 17:45:43,989 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:45:43,989 - app - INFO - User: tom
+2024-09-20 17:45:43,990 - app - INFO - 用户 'tom' 访问了主页
+2024-09-20 17:45:44,031 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 17:45:44,031 - app - INFO - User: tom
+2024-09-20 17:45:56,620 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:45:56,621 - app - INFO - User: tom
+2024-09-20 17:45:56,672 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:45:56,673 - app - INFO - User: tom
+2024-09-20 17:45:59,909 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:45:59,910 - app - INFO - User: tom
+2024-09-20 17:45:59,955 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:45:59,957 - app - INFO - User: tom
+2024-09-20 17:46:02,311 - app - INFO - Request: GET http://127.0.0.1:8080/register
+2024-09-20 17:46:02,311 - app - INFO - User: tom
+2024-09-20 17:46:02,359 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:46:02,359 - app - INFO - User: tom
+2024-09-20 17:46:04,242 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 17:46:04,244 - app - INFO - User: tom
+2024-09-20 17:46:04,291 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 17:46:04,292 - app - INFO - User: tom
+2024-09-20 17:46:06,895 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 17:46:06,895 - app - INFO - User: tom
+2024-09-20 17:46:06,897 - app - INFO - Login attempt: 11
+2024-09-20 17:46:07,127 - app - INFO - 用户 'tom' logged in
+2024-09-20 17:46:07,137 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 17:46:07,138 - app - INFO - User: tom
+2024-09-20 17:46:07,139 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 17:46:07,194 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 17:46:07,194 - app - INFO - User: tom
+2024-09-20 17:46:07,204 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:46:07,206 - app - INFO - User: tom
+2024-09-20 17:46:07,207 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 17:46:07,207 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 17:46:07,209 - app - INFO - User: tom
+2024-09-20 17:46:07,218 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 17:46:07,220 - app - INFO - User: tom
+2024-09-20 17:46:07,233 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 17:46:07,234 - app - INFO - User: tom
+2024-09-20 17:46:07,241 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 17:46:07,242 - app - INFO - User: tom
+2024-09-20 17:46:07,245 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 17:46:07,264 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 17:46:07,265 - app - INFO - User: tom
+2024-09-20 17:48:08,609 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:48:08,609 - app - INFO - User: tom
+2024-09-20 17:48:08,620 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 17:48:08,622 - app - INFO - User: tom
+2024-09-20 17:48:08,622 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 17:48:08,663 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 17:48:08,664 - app - INFO - User: tom
+2024-09-20 17:51:28,180 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 17:51:28,181 - app - INFO - User: tom
+2024-09-20 17:51:28,181 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 17:51:28,230 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 17:51:28,231 - app - INFO - User: tom
+2024-09-20 17:51:36,053 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 17:51:36,053 - app - INFO - User: tom
+2024-09-20 17:51:36,057 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 17:53:12,703 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 17:53:12,703 - app - INFO - User: tom
+2024-09-20 17:53:12,704 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 17:53:12,748 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 17:53:12,749 - app - INFO - User: tom
+2024-09-20 17:53:13,797 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 17:53:13,798 - app - INFO - User: tom
+2024-09-20 17:53:13,802 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 17:53:13,808 - app - ERROR - Unhandled exception: 'models.History object' has no attribute 'created_at'
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 130, in history
+    return render_template('history.html', histories=histories)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "d:\chatAI\templates\history.html", line 31, in top-level template code
+    <p>创建时间: {{ history.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'models.History object' has no attribute 'created_at'
+2024-09-20 17:56:06,212 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 17:56:06,212 - app - INFO - User: tom
+2024-09-20 17:56:06,213 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 17:56:06,267 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 17:56:06,269 - app - INFO - User: tom
+2024-09-20 17:56:06,996 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 17:56:06,997 - app - INFO - User: tom
+2024-09-20 17:56:07,001 - app - ERROR - Unhandled exception: (pymysql.err.OperationalError) (1054, "Unknown column 'history.created_at' in 'field list'")
+[SQL: SELECT history.id AS history_id, history.username AS history_username, history.phone AS history_phone, history.conversations AS history_conversations, history.created_at AS history_created_at 
+FROM history 
+WHERE history.username = %(username_1)s]
+[parameters: {'username_1': 'tom'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'history.created_at' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 128, in history
+    histories = History.query.filter_by(username=current_user.username).all()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1054, "Unknown column 'history.created_at' in 'field list'")
+[SQL: SELECT history.id AS history_id, history.username AS history_username, history.phone AS history_phone, history.conversations AS history_conversations, history.created_at AS history_created_at 
+FROM history 
+WHERE history.username = %(username_1)s]
+[parameters: {'username_1': 'tom'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-09-20 17:56:09,053 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 17:56:09,053 - app - INFO - User: tom
+2024-09-20 17:56:09,056 - app - ERROR - Unhandled exception: (pymysql.err.OperationalError) (1054, "Unknown column 'history.created_at' in 'field list'")
+[SQL: SELECT history.id AS history_id, history.username AS history_username, history.phone AS history_phone, history.conversations AS history_conversations, history.created_at AS history_created_at 
+FROM history 
+WHERE history.username = %(username_1)s]
+[parameters: {'username_1': 'tom'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'history.created_at' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 128, in history
+    histories = History.query.filter_by(username=current_user.username).all()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1054, "Unknown column 'history.created_at' in 'field list'")
+[SQL: SELECT history.id AS history_id, history.username AS history_username, history.phone AS history_phone, history.conversations AS history_conversations, history.created_at AS history_created_at 
+FROM history 
+WHERE history.username = %(username_1)s]
+[parameters: {'username_1': 'tom'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-09-20 17:59:06,351 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 17:59:06,352 - app - INFO - User: tom
+2024-09-20 17:59:06,371 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 17:59:06,371 - app - INFO - User: tom
+2024-09-20 17:59:06,372 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 17:59:06,458 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 17:59:06,459 - app - INFO - User: tom
+2024-09-20 17:59:06,698 - app - INFO - Request: GET http://127.0.0.1:8080/favicon.ico
+2024-09-20 17:59:06,698 - app - INFO - User: tom
+2024-09-20 17:59:06,699 - app - WARNING - 404 error: http://127.0.0.1:8080/favicon.ico
+2024-09-20 17:59:10,626 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 17:59:10,626 - app - INFO - User: tom
+2024-09-20 17:59:10,630 - app - ERROR - Unhandled exception: (pymysql.err.OperationalError) (1054, "Unknown column 'history.created_at' in 'field list'")
+[SQL: SELECT history.id AS history_id, history.username AS history_username, history.phone AS history_phone, history.conversations AS history_conversations, history.created_at AS history_created_at 
+FROM history 
+WHERE history.username = %(username_1)s]
+[parameters: {'username_1': 'tom'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'history.created_at' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\views.py", line 128, in history
+    histories = History.query.filter_by(username=current_user.username).all()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 2673, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 2827, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1054, "Unknown column 'history.created_at' in 'field list'")
+[SQL: SELECT history.id AS history_id, history.username AS history_username, history.phone AS history_phone, history.conversations AS history_conversations, history.created_at AS history_created_at 
+FROM history 
+WHERE history.username = %(username_1)s]
+[parameters: {'username_1': 'tom'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-09-20 18:00:17,169 - app - ERROR - Unhandled exception: (pymysql.err.ProgrammingError) (1146, "Table 'chatai.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.phone AS user_phone, user.email AS user_email, user.password_hash AS user_password_hash, user.avatar AS user_avatar, user.created_at AS user_created_at, user.first_login_at AS user_first_login_at, user.last_login_at AS user_last_login_at, user.login_count AS user_login_count, user.is_active AS user_is_active 
+FROM user 
+WHERE user.id = %(pk_1)s]
+[parameters: {'pk_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'chatai.user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 878, in full_dispatch_request
+    rv = self.preprocess_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1253, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\app.py", line 69, in check_user_activity
+    if current_user.is_authenticated:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\local.py", line 526, in _get_current_object
+    return get_name(local())
+                    ^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 25, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+                                      ^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 370, in _get_user
+    current_app.login_manager._load_user()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\login_manager.py", line 364, in _load_user
+    user = self._user_callback(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\app.py", line 50, in load_user
+    user = User.query.get(int(user_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\util\deprecations.py", line 386, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 1127, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 1136, in _get_impl
+    return self.session._get_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 3873, in _get_impl
+    return db_load_fn(
+           ^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\loading.py", line 694, in load_on_pk_identity
+    session.execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1146, "Table 'chatai.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.phone AS user_phone, user.email AS user_email, user.password_hash AS user_password_hash, user.avatar AS user_avatar, user.created_at AS user_created_at, user.first_login_at AS user_first_login_at, user.last_login_at AS user_last_login_at, user.login_count AS user_login_count, user.is_active AS user_is_active 
+FROM user 
+WHERE user.id = %(pk_1)s]
+[parameters: {'pk_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-20 18:00:22,153 - app - ERROR - Unhandled exception: (pymysql.err.ProgrammingError) (1146, "Table 'chatai.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.phone AS user_phone, user.email AS user_email, user.password_hash AS user_password_hash, user.avatar AS user_avatar, user.created_at AS user_created_at, user.first_login_at AS user_first_login_at, user.last_login_at AS user_last_login_at, user.login_count AS user_login_count, user.is_active AS user_is_active 
+FROM user 
+WHERE user.id = %(pk_1)s]
+[parameters: {'pk_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'chatai.user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 878, in full_dispatch_request
+    rv = self.preprocess_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1253, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\app.py", line 69, in check_user_activity
+    if current_user.is_authenticated:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\werkzeug\local.py", line 526, in _get_current_object
+    return get_name(local())
+                    ^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 25, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+                                      ^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\utils.py", line 370, in _get_user
+    current_app.login_manager._load_user()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\flask_login\login_manager.py", line 364, in _load_user
+    user = self._user_callback(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\chatAI\app.py", line 50, in load_user
+    user = User.query.get(int(user_id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\util\deprecations.py", line 386, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 1127, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\query.py", line 1136, in _get_impl
+    return self.session._get_impl(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 3873, in _get_impl
+    return db_load_fn(
+           ^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\loading.py", line 694, in load_on_pk_identity
+    session.execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\25482\AppData\Roaming\Python\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1146, "Table 'chatai.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.phone AS user_phone, user.email AS user_email, user.password_hash AS user_password_hash, user.avatar AS user_avatar, user.created_at AS user_created_at, user.first_login_at AS user_first_login_at, user.last_login_at AS user_last_login_at, user.login_count AS user_login_count, user.is_active AS user_is_active 
+FROM user 
+WHERE user.id = %(pk_1)s]
+[parameters: {'pk_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2024-09-20 18:00:55,465 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 18:00:55,465 - app - INFO - 用户 '<flask_login.mixins.AnonymousUserMixin object at 0x0000020EB9D16350>' 访问了主页
+2024-09-20 18:00:55,507 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 18:00:59,292 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 18:00:59,341 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 18:01:01,644 - app - INFO - Request: GET http://127.0.0.1:8080/register
+2024-09-20 18:01:01,693 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 18:01:03,153 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 18:01:03,206 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 18:01:06,501 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 18:01:06,502 - app - INFO - Login attempt: 11
+2024-09-20 18:01:06,507 - app - WARNING - Failed login attempt: 11
+2024-09-20 18:01:06,543 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 18:01:07,722 - app - INFO - Request: GET http://127.0.0.1:8080/register
+2024-09-20 18:01:07,766 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 18:01:14,872 - app - INFO - Request: POST http://127.0.0.1:8080/register
+2024-09-20 18:01:15,105 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 18:01:15,106 - app - INFO - User: tom
+2024-09-20 18:01:15,118 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 18:01:15,119 - app - INFO - User: tom
+2024-09-20 18:01:15,119 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 18:01:15,173 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:01:15,173 - app - INFO - User: tom
+2024-09-20 18:01:21,372 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:01:21,374 - app - INFO - User: tom
+2024-09-20 18:01:21,374 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:01:21,433 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:01:21,435 - app - INFO - User: tom
+2024-09-20 18:01:21,440 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:21,442 - app - INFO - User: tom
+2024-09-20 18:01:21,443 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:21,444 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:01:21,447 - app - INFO - User: tom
+2024-09-20 18:01:21,450 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:01:21,451 - app - INFO - User: tom
+2024-09-20 18:01:21,473 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:01:21,473 - app - INFO - User: tom
+2024-09-20 18:01:21,479 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:21,482 - app - INFO - User: tom
+2024-09-20 18:01:21,486 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:26,507 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:26,508 - app - INFO - User: tom
+2024-09-20 18:01:26,508 - app - INFO - Request: POST http://127.0.0.1:8080/ask
+2024-09-20 18:01:26,508 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:26,509 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:26,509 - app - INFO - User: tom
+2024-09-20 18:01:26,510 - app - INFO - User: tom
+2024-09-20 18:01:26,512 - app - INFO - 用户 'tom' 提出了问题 - 详情: 11
+2024-09-20 18:01:26,513 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-09-20 18:01:26,517 - app - INFO - 数据库写入 - 模型: History - 详情: 新建对话 ID: 1
+2024-09-20 18:01:26,526 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 1
+2024-09-20 18:01:26,540 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:26,540 - app - INFO - User: tom
+2024-09-20 18:01:26,543 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:26,557 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:01:26,558 - app - INFO - User: tom
+2024-09-20 18:01:29,752 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:29,753 - app - INFO - User: tom
+2024-09-20 18:01:29,753 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-09-20 18:01:29,753 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:29,754 - app - INFO - Request: POST http://127.0.0.1:8080/ask
+2024-09-20 18:01:29,756 - app - INFO - User: tom
+2024-09-20 18:01:29,757 - app - INFO - User: tom
+2024-09-20 18:01:29,757 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:29,758 - app - INFO - 用户 'tom' 提出了问题 - 详情: 你好
+2024-09-20 18:01:29,764 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 18:01:29,773 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 1
+2024-09-20 18:01:29,785 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:29,786 - app - INFO - User: tom
+2024-09-20 18:01:29,787 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:32,276 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:32,277 - app - INFO - User: tom
+2024-09-20 18:01:32,277 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:32,277 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-09-20 18:01:32,278 - app - INFO - User: tom
+2024-09-20 18:01:32,278 - app - INFO - Request: POST http://127.0.0.1:8080/ask
+2024-09-20 18:01:32,280 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:32,282 - app - INFO - User: tom
+2024-09-20 18:01:32,285 - app - INFO - 用户 'tom' 提出了问题 - 详情: 你好
+2024-09-20 18:01:32,289 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 18:01:32,296 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 1
+2024-09-20 18:01:32,308 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:32,308 - app - INFO - User: tom
+2024-09-20 18:01:32,310 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:33,236 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:33,236 - app - INFO - User: tom
+2024-09-20 18:01:33,237 - app - INFO - 用户 'tom' 点击了 新建对话按钮
+2024-09-20 18:01:36,234 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:36,234 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:36,235 - app - INFO - User: tom
+2024-09-20 18:01:36,235 - app - INFO - Request: POST http://127.0.0.1:8080/ask
+2024-09-20 18:01:36,236 - app - INFO - User: tom
+2024-09-20 18:01:36,236 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:36,236 - app - INFO - User: tom
+2024-09-20 18:01:36,237 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-09-20 18:01:36,238 - app - INFO - 用户 'tom' 提出了问题 - 详情: 在家
+2024-09-20 18:01:36,241 - app - INFO - 数据库写入 - 模型: History - 详情: 新建对话 ID: 2
+2024-09-20 18:01:36,246 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 2
+2024-09-20 18:01:36,258 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:36,258 - app - INFO - User: tom
+2024-09-20 18:01:36,260 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:38,783 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:38,784 - app - INFO - User: tom
+2024-09-20 18:01:38,784 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:38,785 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:38,786 - app - INFO - Request: POST http://127.0.0.1:8080/ask
+2024-09-20 18:01:38,787 - app - INFO - User: tom
+2024-09-20 18:01:38,790 - app - INFO - User: tom
+2024-09-20 18:01:38,791 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-09-20 18:01:38,792 - app - INFO - 用户 'tom' 提出了问题 - 详情: 再见
+2024-09-20 18:01:38,797 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 2
+2024-09-20 18:01:38,806 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 2
+2024-09-20 18:01:38,820 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:38,820 - app - INFO - User: tom
+2024-09-20 18:01:38,823 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:40,344 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 18:01:40,344 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/1
+2024-09-20 18:01:40,344 - app - INFO - User: tom
+2024-09-20 18:01:40,345 - app - INFO - User: tom
+2024-09-20 18:01:40,346 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 1
+2024-09-20 18:01:40,347 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 18:01:40,361 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:40,362 - app - INFO - User: tom
+2024-09-20 18:01:40,363 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:44,697 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 18:01:44,698 - app - INFO - User: tom
+2024-09-20 18:01:44,699 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 18:01:44,754 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:01:44,755 - app - INFO - User: tom
+2024-09-20 18:01:44,756 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 18:01:44,758 - app - INFO - User: tom
+2024-09-20 18:01:46,518 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/1
+2024-09-20 18:01:46,518 - app - INFO - User: tom
+2024-09-20 18:01:46,519 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 18:01:48,577 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/2
+2024-09-20 18:01:48,577 - app - INFO - User: tom
+2024-09-20 18:01:48,579 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 2
+2024-09-20 18:01:55,075 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 18:01:55,076 - app - INFO - User: tom
+2024-09-20 18:01:55,076 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 18:01:55,125 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:01:55,126 - app - INFO - User: tom
+2024-09-20 18:01:57,653 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:01:57,654 - app - INFO - User: tom
+2024-09-20 18:01:57,654 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:01:57,700 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:01:57,701 - app - INFO - User: tom
+2024-09-20 18:01:57,705 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:57,707 - app - INFO - User: tom
+2024-09-20 18:01:57,710 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:01:57,714 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:01:57,715 - app - INFO - User: tom
+2024-09-20 18:01:57,723 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:01:57,724 - app - INFO - User: tom
+2024-09-20 18:01:57,744 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:01:57,744 - app - INFO - User: tom
+2024-09-20 18:01:57,745 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:01:57,747 - app - INFO - User: tom
+2024-09-20 18:01:57,750 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:01:57,772 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:01:57,772 - app - INFO - User: tom
+2024-09-20 18:02:05,593 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 18:02:05,593 - app - INFO - User: tom
+2024-09-20 18:02:05,595 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 18:02:05,647 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:02:05,648 - app - INFO - User: tom
+2024-09-20 18:02:05,655 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 18:02:05,655 - app - INFO - User: tom
+2024-09-20 18:02:07,659 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 18:02:07,660 - app - INFO - User: tom
+2024-09-20 18:02:07,661 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 18:02:07,702 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:02:07,702 - app - INFO - User: tom
+2024-09-20 18:03:30,404 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 18:03:30,404 - app - INFO - User: tom
+2024-09-20 18:03:30,405 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 18:03:30,450 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:03:30,451 - app - INFO - User: tom
+2024-09-20 18:03:32,436 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 18:03:32,436 - app - INFO - User: tom
+2024-09-20 18:03:32,440 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 18:03:32,490 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:03:32,491 - app - INFO - User: tom
+2024-09-20 18:03:32,499 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 18:03:32,499 - app - INFO - User: tom
+2024-09-20 18:03:35,468 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:03:35,468 - app - INFO - User: tom
+2024-09-20 18:03:35,470 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:03:35,525 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:03:35,526 - app - INFO - User: tom
+2024-09-20 18:03:35,533 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:03:35,536 - app - INFO - User: tom
+2024-09-20 18:03:35,541 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:03:35,542 - app - INFO - User: tom
+2024-09-20 18:03:35,549 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:03:35,550 - app - INFO - User: tom
+2024-09-20 18:03:35,550 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:03:35,551 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:03:35,552 - app - INFO - User: tom
+2024-09-20 18:03:35,563 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:03:35,563 - app - INFO - User: tom
+2024-09-20 18:03:35,574 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:03:35,575 - app - INFO - User: tom
+2024-09-20 18:03:35,578 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:03:35,607 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:03:35,608 - app - INFO - User: tom
+2024-09-20 18:06:13,620 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:06:13,621 - app - INFO - User: tom
+2024-09-20 18:06:13,621 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:06:13,676 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:06:13,678 - app - INFO - User: tom
+2024-09-20 18:06:13,683 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:06:13,684 - app - INFO - User: tom
+2024-09-20 18:06:13,688 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:06:13,689 - app - INFO - User: tom
+2024-09-20 18:06:13,689 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:06:13,690 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:06:13,690 - app - INFO - User: tom
+2024-09-20 18:06:13,702 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:06:13,702 - app - INFO - User: tom
+2024-09-20 18:06:13,936 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:06:13,938 - app - INFO - User: tom
+2024-09-20 18:06:13,940 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:06:13,941 - app - INFO - User: tom
+2024-09-20 18:06:13,947 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:06:13,963 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:06:13,964 - app - INFO - User: tom
+2024-09-20 18:06:18,834 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 18:06:18,835 - app - INFO - User: tom
+2024-09-20 18:06:18,838 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 18:06:18,893 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:06:18,894 - app - INFO - User: tom
+2024-09-20 18:06:18,901 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 18:06:18,902 - app - INFO - User: tom
+2024-09-20 18:06:21,557 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:06:21,558 - app - INFO - User: tom
+2024-09-20 18:06:21,558 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:06:21,604 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:06:21,605 - app - INFO - User: tom
+2024-09-20 18:06:21,614 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:06:21,614 - app - INFO - User: tom
+2024-09-20 18:06:21,620 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:06:21,622 - app - INFO - User: tom
+2024-09-20 18:06:21,624 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:06:21,626 - app - INFO - User: tom
+2024-09-20 18:06:21,628 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:06:21,628 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:06:21,628 - app - INFO - User: tom
+2024-09-20 18:06:21,640 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:06:21,642 - app - INFO - User: tom
+2024-09-20 18:06:21,646 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:06:21,646 - app - INFO - User: tom
+2024-09-20 18:06:21,650 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:06:21,677 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:06:21,677 - app - INFO - User: tom
+2024-09-20 18:07:59,571 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 18:07:59,572 - app - INFO - User: tom
+2024-09-20 18:07:59,572 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 18:07:59,620 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 18:07:59,621 - app - INFO - User: tom
+2024-09-20 18:08:01,362 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:08:01,363 - app - INFO - User: tom
+2024-09-20 18:08:01,363 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:08:01,418 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:08:01,419 - app - INFO - User: tom
+2024-09-20 18:08:01,434 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:08:01,435 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:08:01,435 - app - INFO - User: tom
+2024-09-20 18:08:01,437 - app - INFO - User: tom
+2024-09-20 18:08:01,438 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:08:01,441 - app - INFO - User: tom
+2024-09-20 18:08:01,442 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:08:01,443 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:08:01,445 - app - INFO - User: tom
+2024-09-20 18:08:01,458 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:08:01,459 - app - INFO - User: tom
+2024-09-20 18:08:01,465 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:08:01,466 - app - INFO - User: tom
+2024-09-20 18:08:01,472 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:08:01,496 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:08:01,497 - app - INFO - User: tom
+2024-09-20 18:08:12,227 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:08:12,227 - app - INFO - User: tom
+2024-09-20 18:08:12,227 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:08:12,283 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:08:12,284 - app - INFO - User: tom
+2024-09-20 18:08:12,299 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:08:12,300 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:08:12,300 - app - INFO - User: tom
+2024-09-20 18:08:12,300 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:08:12,301 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:08:12,301 - app - INFO - User: tom
+2024-09-20 18:08:12,302 - app - INFO - User: tom
+2024-09-20 18:08:12,303 - app - INFO - User: tom
+2024-09-20 18:08:12,303 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:08:12,321 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:08:12,322 - app - INFO - User: tom
+2024-09-20 18:08:12,328 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:08:12,329 - app - INFO - User: tom
+2024-09-20 18:08:12,333 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:08:12,351 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:08:12,352 - app - INFO - User: tom
+2024-09-20 18:08:20,492 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:08:20,493 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:08:20,493 - app - INFO - User: tom
+2024-09-20 18:08:20,494 - app - INFO - User: tom
+2024-09-20 18:10:17,945 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:10:17,946 - app - INFO - User: tom
+2024-09-20 18:10:17,946 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:10:17,996 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:10:17,997 - app - INFO - User: tom
+2024-09-20 18:10:18,005 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:10:18,006 - app - INFO - User: tom
+2024-09-20 18:10:18,007 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:10:18,008 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:10:18,009 - app - INFO - User: tom
+2024-09-20 18:10:18,010 - app - INFO - User: tom
+2024-09-20 18:10:18,011 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:10:18,040 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:10:18,040 - app - INFO - User: tom
+2024-09-20 18:10:18,232 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:10:18,232 - app - INFO - User: tom
+2024-09-20 18:10:18,236 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:10:18,237 - app - INFO - User: tom
+2024-09-20 18:10:18,244 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:10:18,274 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:10:18,275 - app - INFO - User: tom
+2024-09-20 18:10:19,141 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:10:19,142 - app - INFO - User: tom
+2024-09-20 18:10:19,142 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:10:19,185 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:10:19,186 - app - INFO - User: tom
+2024-09-20 18:10:19,188 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:10:19,189 - app - INFO - User: tom
+2024-09-20 18:10:19,191 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:10:19,191 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:10:19,192 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:10:19,195 - app - INFO - User: tom
+2024-09-20 18:10:19,196 - app - INFO - User: tom
+2024-09-20 18:10:19,205 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:10:19,207 - app - INFO - User: tom
+2024-09-20 18:10:19,218 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:10:19,218 - app - INFO - User: tom
+2024-09-20 18:10:19,223 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:10:19,224 - app - INFO - User: tom
+2024-09-20 18:10:19,227 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:10:19,243 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:10:19,244 - app - INFO - User: tom
+2024-09-20 18:10:19,597 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 18:10:19,597 - app - INFO - User: tom
+2024-09-20 18:10:19,597 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 18:10:19,641 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 18:10:19,642 - app - INFO - User: tom
+2024-09-20 18:10:19,643 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:10:19,644 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 18:10:19,645 - app - INFO - User: tom
+2024-09-20 18:10:19,646 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 18:10:19,646 - app - INFO - User: tom
+2024-09-20 18:10:19,647 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 18:10:19,649 - app - INFO - User: tom
+2024-09-20 18:10:19,660 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 18:10:19,661 - app - INFO - User: tom
+2024-09-20 18:10:19,673 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 18:10:19,675 - app - INFO - User: tom
+2024-09-20 18:10:19,677 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 18:10:19,678 - app - INFO - User: tom
+2024-09-20 18:10:19,681 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 18:10:19,697 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 18:10:19,697 - app - INFO - User: tom
+2024-09-20 23:15:35,166 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:15:35,167 - app - INFO - User: tom
+2024-09-20 23:15:35,183 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:15:35,183 - app - INFO - User: tom
+2024-09-20 23:15:35,184 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:15:35,253 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:15:35,254 - app - INFO - User: tom
+2024-09-20 23:15:35,560 - app - INFO - Request: GET http://127.0.0.1:8080/favicon.ico
+2024-09-20 23:15:35,561 - app - INFO - User: tom
+2024-09-20 23:15:35,561 - app - WARNING - 404 error: http://127.0.0.1:8080/favicon.ico
+2024-09-20 23:15:38,655 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 23:15:38,656 - app - INFO - User: tom
+2024-09-20 23:15:38,656 - app - INFO - 用户 'tom' logged out
+2024-09-20 23:15:38,664 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:15:38,721 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:15:43,637 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:15:43,646 - app - INFO - Request: GET http://127.0.0.1:8080/login?next=/dashboard
+2024-09-20 23:15:43,685 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:15:50,719 - app - INFO - Request: POST http://127.0.0.1:8080/login?next=/dashboard
+2024-09-20 23:15:50,721 - app - INFO - Login attempt: 11
+2024-09-20 23:15:50,957 - app - INFO - 用户 'tom' logged in
+2024-09-20 23:15:50,968 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:15:50,968 - app - INFO - User: tom
+2024-09-20 23:15:50,969 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:15:51,021 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:15:51,022 - app - INFO - User: tom
+2024-09-20 23:16:44,771 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:16:44,771 - app - INFO - User: tom
+2024-09-20 23:16:44,771 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:16:44,813 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:16:44,814 - app - INFO - User: tom
+2024-09-20 23:16:46,268 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 23:16:46,269 - app - INFO - User: tom
+2024-09-20 23:16:46,269 - app - INFO - 用户 'tom' logged out
+2024-09-20 23:16:46,279 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:16:46,321 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:16:53,487 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:16:53,487 - app - INFO - 用户 '<flask_login.mixins.AnonymousUserMixin object at 0x00000270CCAE36D0>' 访问了主页
+2024-09-20 23:16:53,546 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 23:16:56,463 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:16:56,503 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:16:59,590 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 23:16:59,592 - app - INFO - Login attempt: 11
+2024-09-20 23:16:59,819 - app - INFO - 用户 'tom' logged in
+2024-09-20 23:16:59,832 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:16:59,833 - app - INFO - User: tom
+2024-09-20 23:16:59,833 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:16:59,912 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:16:59,912 - app - INFO - User: tom
+2024-09-20 23:17:04,316 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:17:04,317 - app - INFO - User: tom
+2024-09-20 23:17:04,327 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:17:04,328 - app - INFO - User: tom
+2024-09-20 23:17:04,328 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:17:04,379 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:17:04,379 - app - INFO - User: tom
+2024-09-20 23:17:11,567 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:17:11,567 - app - INFO - User: tom
+2024-09-20 23:17:11,568 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:17:11,622 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:17:11,623 - app - INFO - User: tom
+2024-09-20 23:17:11,638 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:17:11,641 - app - INFO - User: tom
+2024-09-20 23:17:11,641 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:11,643 - app - INFO - User: tom
+2024-09-20 23:17:11,644 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:11,647 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:17:11,650 - app - INFO - User: tom
+2024-09-20 23:17:11,651 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:17:11,652 - app - INFO - User: tom
+2024-09-20 23:17:11,674 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:17:11,675 - app - INFO - User: tom
+2024-09-20 23:17:11,681 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:17:11,683 - app - INFO - User: tom
+2024-09-20 23:17:11,689 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:17:11,727 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:17:11,728 - app - INFO - User: tom
+2024-09-20 23:17:15,139 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/2
+2024-09-20 23:17:15,140 - app - INFO - User: tom
+2024-09-20 23:17:15,140 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 23:17:15,141 - app - INFO - User: tom
+2024-09-20 23:17:15,142 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 2
+2024-09-20 23:17:15,144 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 2
+2024-09-20 23:17:15,156 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:15,157 - app - INFO - User: tom
+2024-09-20 23:17:15,157 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:15,631 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 23:17:15,632 - app - INFO - User: tom
+2024-09-20 23:17:15,633 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 1
+2024-09-20 23:17:15,633 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/1
+2024-09-20 23:17:15,636 - app - INFO - User: tom
+2024-09-20 23:17:15,638 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 23:17:15,650 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:15,651 - app - INFO - User: tom
+2024-09-20 23:17:15,652 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:16,216 - app - INFO - Request: POST http://127.0.0.1:8080/log_click
+2024-09-20 23:17:16,216 - app - INFO - User: tom
+2024-09-20 23:17:16,217 - app - INFO - 用户 'tom' 点击了 新建对话按钮
+2024-09-20 23:17:20,058 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:17:20,058 - app - INFO - User: tom
+2024-09-20 23:17:20,058 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:17:20,110 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:17:20,111 - app - INFO - User: tom
+2024-09-20 23:17:20,114 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:17:20,116 - app - INFO - User: tom
+2024-09-20 23:17:20,131 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:20,132 - app - INFO - User: tom
+2024-09-20 23:17:20,133 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:17:20,133 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:17:20,135 - app - INFO - User: tom
+2024-09-20 23:17:20,147 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:17:20,147 - app - INFO - User: tom
+2024-09-20 23:17:20,190 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:17:20,191 - app - INFO - User: tom
+2024-09-20 23:17:20,197 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:17:20,198 - app - INFO - User: tom
+2024-09-20 23:17:20,201 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:17:20,235 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:17:20,237 - app - INFO - User: tom
+2024-09-20 23:17:25,331 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:17:25,332 - app - INFO - User: tom
+2024-09-20 23:17:25,332 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:17:25,334 - app - INFO - User: tom
+2024-09-20 23:18:35,809 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:18:35,810 - app - INFO - User: tom
+2024-09-20 23:18:35,810 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:18:35,861 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:18:35,862 - app - INFO - User: tom
+2024-09-20 23:18:35,862 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:18:35,864 - app - INFO - User: tom
+2024-09-20 23:18:35,866 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:18:35,867 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:18:35,868 - app - INFO - User: tom
+2024-09-20 23:18:35,871 - app - INFO - User: tom
+2024-09-20 23:18:35,874 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:18:35,893 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:18:35,894 - app - INFO - User: tom
+2024-09-20 23:18:35,927 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:18:35,928 - app - INFO - User: tom
+2024-09-20 23:18:35,935 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:18:35,935 - app - INFO - User: tom
+2024-09-20 23:18:35,937 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:18:35,994 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:18:35,995 - app - INFO - User: tom
+2024-09-20 23:21:01,482 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:21:01,483 - app - INFO - User: tom
+2024-09-20 23:21:01,484 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:21:01,539 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:21:01,541 - app - INFO - User: tom
+2024-09-20 23:21:01,546 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:21:01,548 - app - INFO - User: tom
+2024-09-20 23:21:01,549 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:21:01,552 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:21:01,554 - app - INFO - User: tom
+2024-09-20 23:21:01,564 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:21:01,565 - app - INFO - User: tom
+2024-09-20 23:21:01,794 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:21:01,794 - app - INFO - User: tom
+2024-09-20 23:21:01,795 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:21:01,796 - app - INFO - User: tom
+2024-09-20 23:21:01,804 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:21:01,830 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:21:01,831 - app - INFO - User: tom
+2024-09-20 23:21:03,174 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:21:03,174 - app - INFO - User: tom
+2024-09-20 23:21:03,174 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:21:03,221 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:21:03,222 - app - INFO - User: tom
+2024-09-20 23:21:05,029 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:21:05,029 - app - INFO - User: tom
+2024-09-20 23:21:05,030 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:21:05,084 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:21:05,084 - app - INFO - User: tom
+2024-09-20 23:21:05,098 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:21:05,098 - app - INFO - User: tom
+2024-09-20 23:21:05,099 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:21:05,099 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:21:05,100 - app - INFO - User: tom
+2024-09-20 23:21:05,119 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:21:05,120 - app - INFO - User: tom
+2024-09-20 23:21:05,156 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:21:05,156 - app - INFO - User: tom
+2024-09-20 23:21:05,166 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:21:05,166 - app - INFO - User: tom
+2024-09-20 23:21:05,168 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:21:05,194 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:21:05,194 - app - INFO - User: tom
+2024-09-20 23:23:55,812 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:23:55,813 - app - INFO - User: tom
+2024-09-20 23:23:55,814 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:23:55,862 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:23:55,865 - app - INFO - User: tom
+2024-09-20 23:23:55,869 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:23:55,870 - app - INFO - User: tom
+2024-09-20 23:23:55,871 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:23:55,872 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:23:55,872 - app - INFO - User: tom
+2024-09-20 23:23:55,891 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:23:55,892 - app - INFO - User: tom
+2024-09-20 23:23:56,066 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:23:56,067 - app - INFO - User: tom
+2024-09-20 23:23:56,078 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:23:56,078 - app - INFO - User: tom
+2024-09-20 23:23:56,085 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:23:56,110 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:23:56,111 - app - INFO - User: tom
+2024-09-20 23:24:22,459 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:24:22,460 - app - INFO - User: tom
+2024-09-20 23:24:22,460 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:24:22,536 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:24:22,537 - app - INFO - User: tom
+2024-09-20 23:24:22,551 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:24:22,552 - app - INFO - User: tom
+2024-09-20 23:24:22,553 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:24:22,555 - app - INFO - User: tom
+2024-09-20 23:24:22,557 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:24:22,558 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:24:22,559 - app - INFO - User: tom
+2024-09-20 23:24:22,559 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:24:22,561 - app - INFO - User: tom
+2024-09-20 23:24:22,784 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:24:22,785 - app - INFO - User: tom
+2024-09-20 23:24:22,790 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:24:22,791 - app - INFO - User: tom
+2024-09-20 23:24:22,795 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:24:22,813 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:24:22,814 - app - INFO - User: tom
+2024-09-20 23:25:55,077 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:25:55,079 - app - INFO - User: tom
+2024-09-20 23:25:55,079 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:25:55,134 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:25:55,136 - app - INFO - User: tom
+2024-09-20 23:25:55,142 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:25:55,142 - app - INFO - User: tom
+2024-09-20 23:25:55,143 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:25:55,144 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:25:55,144 - app - INFO - User: tom
+2024-09-20 23:25:55,146 - app - INFO - User: tom
+2024-09-20 23:25:55,150 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:25:55,155 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:25:55,155 - app - INFO - User: tom
+2024-09-20 23:25:55,371 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:25:55,371 - app - INFO - User: tom
+2024-09-20 23:25:55,378 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:25:55,379 - app - INFO - User: tom
+2024-09-20 23:25:55,383 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:25:55,401 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:25:55,402 - app - INFO - User: tom
+2024-09-20 23:26:01,962 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:26:01,962 - app - INFO - User: tom
+2024-09-20 23:26:01,962 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:26:02,021 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:26:02,023 - app - INFO - User: tom
+2024-09-20 23:26:02,027 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:26:02,028 - app - INFO - User: tom
+2024-09-20 23:26:02,047 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:26:02,048 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:26:02,048 - app - INFO - User: tom
+2024-09-20 23:26:02,049 - app - INFO - User: tom
+2024-09-20 23:26:02,049 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:26:02,057 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:26:02,058 - app - INFO - User: tom
+2024-09-20 23:26:02,095 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:26:02,097 - app - INFO - User: tom
+2024-09-20 23:26:02,098 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:26:02,100 - app - INFO - User: tom
+2024-09-20 23:26:02,103 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:26:02,139 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:26:02,140 - app - INFO - User: tom
+2024-09-20 23:26:08,591 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 23:26:08,592 - app - INFO - User: tom
+2024-09-20 23:26:08,592 - app - INFO - 用户 'tom' logged out
+2024-09-20 23:26:08,601 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:26:08,648 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:29:33,667 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:29:33,667 - app - INFO - 用户 '<flask_login.mixins.AnonymousUserMixin object at 0x0000021C54514F90>' 访问了主页
+2024-09-20 23:29:33,713 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 23:29:36,291 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:29:36,336 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:29:39,280 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 23:29:39,281 - app - INFO - Login attempt: 11
+2024-09-20 23:29:39,520 - app - INFO - 用户 'tom' logged in
+2024-09-20 23:29:39,535 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:29:39,536 - app - INFO - User: tom
+2024-09-20 23:29:39,537 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:29:39,601 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:29:39,602 - app - INFO - User: tom
+2024-09-20 23:29:41,491 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:29:41,492 - app - INFO - User: tom
+2024-09-20 23:29:41,492 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:29:41,546 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:29:41,553 - app - INFO - User: tom
+2024-09-20 23:29:41,569 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:29:41,569 - app - INFO - User: tom
+2024-09-20 23:29:41,570 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:29:41,570 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:29:41,570 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:29:41,571 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:29:41,571 - app - INFO - User: tom
+2024-09-20 23:29:41,572 - app - INFO - User: tom
+2024-09-20 23:29:41,573 - app - INFO - User: tom
+2024-09-20 23:29:41,599 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:29:41,600 - app - INFO - User: tom
+2024-09-20 23:29:41,608 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:29:41,608 - app - INFO - User: tom
+2024-09-20 23:29:41,611 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:29:41,636 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:29:41,637 - app - INFO - User: tom
+2024-09-20 23:29:44,240 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 23:29:44,240 - app - INFO - User: tom
+2024-09-20 23:29:44,249 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:29:44,249 - app - INFO - 用户 '<flask_login.mixins.AnonymousUserMixin object at 0x0000021C54650B10>' 访问了主页
+2024-09-20 23:29:44,294 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 23:29:45,808 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:29:45,848 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:29:48,597 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 23:29:48,598 - app - INFO - Login attempt: 11
+2024-09-20 23:29:48,820 - app - INFO - 用户 'tom' logged in
+2024-09-20 23:29:48,833 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:29:48,834 - app - INFO - User: tom
+2024-09-20 23:29:48,834 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:29:48,882 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:29:48,883 - app - INFO - User: tom
+2024-09-20 23:30:14,330 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 23:30:14,330 - app - INFO - User: tom
+2024-09-20 23:30:14,337 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 23:30:14,390 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:30:14,393 - app - INFO - User: tom
+2024-09-20 23:30:14,397 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 23:30:14,398 - app - INFO - User: tom
+2024-09-20 23:30:16,804 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/2
+2024-09-20 23:30:16,804 - app - INFO - User: tom
+2024-09-20 23:30:16,806 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 2
+2024-09-20 23:30:23,735 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:30:23,735 - app - INFO - User: tom
+2024-09-20 23:30:23,736 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:30:23,788 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:30:23,789 - app - INFO - User: tom
+2024-09-20 23:30:23,801 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:30:23,802 - app - INFO - User: tom
+2024-09-20 23:30:23,814 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:30:23,816 - app - INFO - User: tom
+2024-09-20 23:30:23,816 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:30:23,816 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:30:23,817 - app - INFO - User: tom
+2024-09-20 23:30:23,825 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:30:23,826 - app - INFO - User: tom
+2024-09-20 23:30:23,872 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:30:23,872 - app - INFO - User: tom
+2024-09-20 23:30:23,889 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:30:23,889 - app - INFO - User: tom
+2024-09-20 23:30:23,893 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:30:23,959 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:30:23,960 - app - INFO - User: tom
+2024-09-20 23:30:26,047 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:30:26,047 - app - INFO - User: tom
+2024-09-20 23:30:26,048 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:30:26,100 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:30:26,101 - app - INFO - User: tom
+2024-09-20 23:30:26,115 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:30:26,116 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:30:26,117 - app - INFO - User: tom
+2024-09-20 23:30:26,118 - app - INFO - User: tom
+2024-09-20 23:30:26,118 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:30:26,118 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:30:26,123 - app - INFO - User: tom
+2024-09-20 23:30:26,128 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:30:26,133 - app - INFO - User: tom
+2024-09-20 23:30:26,203 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:30:26,203 - app - INFO - User: tom
+2024-09-20 23:30:26,210 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:30:26,210 - app - INFO - User: tom
+2024-09-20 23:30:26,212 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:30:26,250 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:30:26,250 - app - INFO - User: tom
+2024-09-20 23:32:24,615 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:32:24,616 - app - INFO - User: tom
+2024-09-20 23:32:24,616 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:32:24,665 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:32:24,666 - app - INFO - User: tom
+2024-09-20 23:32:26,528 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:32:26,528 - app - INFO - User: tom
+2024-09-20 23:32:26,528 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:32:26,567 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:32:26,567 - app - INFO - User: tom
+2024-09-20 23:33:48,183 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:33:48,184 - app - INFO - User: tom
+2024-09-20 23:33:48,184 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:33:48,238 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:33:48,241 - app - INFO - User: tom
+2024-09-20 23:33:48,250 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:33:48,251 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:33:48,251 - app - INFO - User: tom
+2024-09-20 23:33:48,252 - app - INFO - User: tom
+2024-09-20 23:35:35,912 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:35:35,913 - app - INFO - User: tom
+2024-09-20 23:35:35,914 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:35:35,965 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:35:35,967 - app - INFO - User: tom
+2024-09-20 23:35:35,970 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:35:35,971 - app - INFO - User: tom
+2024-09-20 23:35:43,638 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:35:43,639 - app - INFO - User: tom
+2024-09-20 23:35:43,639 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:35:43,696 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:35:43,700 - app - INFO - User: tom
+2024-09-20 23:35:43,703 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:35:43,705 - app - INFO - User: tom
+2024-09-20 23:35:43,717 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:35:43,718 - app - INFO - User: tom
+2024-09-20 23:35:43,721 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:35:43,723 - app - INFO - User: tom
+2024-09-20 23:35:43,723 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:35:43,725 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:35:43,726 - app - INFO - User: tom
+2024-09-20 23:35:43,742 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:35:43,743 - app - INFO - User: tom
+2024-09-20 23:35:43,749 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:35:43,749 - app - INFO - User: tom
+2024-09-20 23:35:43,754 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:35:43,775 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:35:43,775 - app - INFO - User: tom
+2024-09-20 23:35:45,373 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 23:35:45,373 - app - INFO - User: tom
+2024-09-20 23:35:45,375 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 23:35:45,426 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:35:45,427 - app - INFO - User: tom
+2024-09-20 23:35:45,429 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 23:35:45,429 - app - INFO - User: tom
+2024-09-20 23:35:51,433 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/1
+2024-09-20 23:35:51,434 - app - INFO - User: tom
+2024-09-20 23:35:51,436 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 23:35:54,392 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:35:54,392 - app - INFO - User: tom
+2024-09-20 23:35:54,441 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:35:54,443 - app - INFO - User: tom
+2024-09-20 23:35:54,444 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:35:54,445 - app - INFO - User: tom
+2024-09-20 23:37:17,340 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:37:17,341 - app - INFO - User: tom
+2024-09-20 23:37:17,341 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:37:17,384 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:37:17,386 - app - INFO - User: tom
+2024-09-20 23:37:17,392 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:37:17,393 - app - INFO - User: tom
+2024-09-20 23:37:18,778 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:37:18,778 - app - INFO - User: tom
+2024-09-20 23:37:18,830 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:37:18,830 - app - INFO - User: tom
+2024-09-20 23:37:18,840 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:37:18,840 - app - INFO - User: tom
+2024-09-20 23:38:53,764 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:38:53,764 - app - INFO - User: tom
+2024-09-20 23:38:53,765 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:38:53,836 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:38:53,837 - app - INFO - User: tom
+2024-09-20 23:38:53,851 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:38:53,851 - app - INFO - User: tom
+2024-09-20 23:38:54,805 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:38:54,805 - app - INFO - User: tom
+2024-09-20 23:38:54,858 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:38:54,858 - app - INFO - User: tom
+2024-09-20 23:38:54,860 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:38:54,861 - app - INFO - User: tom
+2024-09-20 23:39:04,953 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:39:04,953 - app - INFO - User: tom
+2024-09-20 23:39:05,007 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:39:05,008 - app - INFO - User: tom
+2024-09-20 23:39:05,014 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:39:05,015 - app - INFO - User: tom
+2024-09-20 23:39:07,691 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:39:07,692 - app - INFO - User: tom
+2024-09-20 23:39:07,749 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:39:07,750 - app - INFO - User: tom
+2024-09-20 23:39:07,756 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:39:07,757 - app - INFO - User: tom
+2024-09-20 23:39:15,979 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:39:15,980 - app - INFO - User: tom
+2024-09-20 23:39:16,034 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:39:16,035 - app - INFO - User: tom
+2024-09-20 23:39:16,041 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:39:16,042 - app - INFO - User: tom
+2024-09-20 23:40:30,528 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:40:30,529 - app - INFO - User: tom
+2024-09-20 23:40:30,591 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:40:30,592 - app - INFO - User: tom
+2024-09-20 23:40:30,609 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:40:30,610 - app - INFO - User: tom
+2024-09-20 23:40:40,711 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:40:40,711 - app - INFO - User: tom
+2024-09-20 23:40:40,783 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:40:40,783 - app - INFO - User: tom
+2024-09-20 23:40:40,799 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:40:40,800 - app - INFO - User: tom
+2024-09-20 23:40:42,805 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:40:42,805 - app - INFO - User: tom
+2024-09-20 23:40:42,806 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:40:42,868 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:40:42,868 - app - INFO - User: tom
+2024-09-20 23:40:42,882 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:40:42,883 - app - INFO - User: tom
+2024-09-20 23:40:42,900 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:40:42,901 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:40:42,902 - app - INFO - User: tom
+2024-09-20 23:40:42,902 - app - INFO - User: tom
+2024-09-20 23:40:42,905 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:40:42,913 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:40:42,914 - app - INFO - User: tom
+2024-09-20 23:40:42,954 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:40:42,955 - app - INFO - User: tom
+2024-09-20 23:40:42,961 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:40:42,961 - app - INFO - User: tom
+2024-09-20 23:40:42,965 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:40:43,017 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:40:43,018 - app - INFO - User: tom
+2024-09-20 23:40:45,867 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:40:45,867 - app - INFO - User: tom
+2024-09-20 23:40:45,914 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:40:45,915 - app - INFO - User: tom
+2024-09-20 23:40:45,917 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:40:45,918 - app - INFO - User: tom
+2024-09-20 23:42:29,698 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:42:29,699 - app - INFO - User: tom
+2024-09-20 23:42:29,700 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:42:29,754 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:42:29,757 - app - INFO - User: tom
+2024-09-20 23:42:29,763 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:42:29,765 - app - INFO - User: tom
+2024-09-20 23:42:29,768 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:42:29,769 - app - INFO - User: tom
+2024-09-20 23:42:29,769 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:42:29,770 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:42:29,772 - app - INFO - User: tom
+2024-09-20 23:42:29,788 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:42:29,789 - app - INFO - User: tom
+2024-09-20 23:42:30,003 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:42:30,004 - app - INFO - User: tom
+2024-09-20 23:42:30,008 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:42:30,009 - app - INFO - User: tom
+2024-09-20 23:42:30,012 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:42:30,032 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:42:30,033 - app - INFO - User: tom
+2024-09-20 23:42:35,118 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:42:35,119 - app - INFO - User: tom
+2024-09-20 23:42:35,174 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:42:35,176 - app - INFO - User: tom
+2024-09-20 23:42:35,184 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:42:35,184 - app - INFO - User: tom
+2024-09-20 23:42:41,000 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:42:41,001 - app - INFO - User: tom
+2024-09-20 23:42:41,072 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:42:41,074 - app - INFO - User: tom
+2024-09-20 23:42:41,075 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:42:41,078 - app - INFO - User: tom
+2024-09-20 23:44:09,545 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:44:09,546 - app - INFO - User: tom
+2024-09-20 23:44:09,599 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:44:09,601 - app - INFO - User: tom
+2024-09-20 23:44:09,605 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:44:09,606 - app - INFO - User: tom
+2024-09-20 23:44:13,497 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:44:13,497 - app - INFO - User: tom
+2024-09-20 23:44:13,497 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:44:13,552 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:44:13,553 - app - INFO - User: tom
+2024-09-20 23:44:13,555 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:44:13,556 - app - INFO - User: tom
+2024-09-20 23:44:14,582 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:44:14,583 - app - INFO - User: tom
+2024-09-20 23:44:14,631 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:44:14,632 - app - INFO - User: tom
+2024-09-20 23:44:14,633 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:44:14,636 - app - INFO - User: tom
+2024-09-20 23:47:16,138 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:47:16,138 - app - INFO - User: tom
+2024-09-20 23:47:16,138 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:47:16,185 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:47:16,187 - app - INFO - User: tom
+2024-09-20 23:47:16,191 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:47:16,192 - app - INFO - User: tom
+2024-09-20 23:48:24,696 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:48:24,697 - app - INFO - User: tom
+2024-09-20 23:48:24,698 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:48:24,748 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:48:24,749 - app - INFO - User: tom
+2024-09-20 23:48:24,753 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:48:24,754 - app - INFO - User: tom
+2024-09-20 23:48:42,968 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 23:48:42,969 - app - INFO - User: tom
+2024-09-20 23:48:42,978 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:48:42,979 - app - INFO - 用户 '<flask_login.mixins.AnonymousUserMixin object at 0x000001EA5F94E8D0>' 访问了主页
+2024-09-20 23:48:43,025 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 23:48:44,581 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:48:44,625 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:48:47,869 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 23:48:47,870 - app - INFO - Login attempt: 11
+2024-09-20 23:48:48,097 - app - INFO - 用户 'tom' logged in
+2024-09-20 23:48:48,109 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:48:48,109 - app - INFO - User: tom
+2024-09-20 23:48:48,110 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:48:48,179 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:48:48,179 - app - INFO - User: tom
+2024-09-20 23:48:48,193 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:48:48,193 - app - INFO - User: tom
+2024-09-20 23:48:50,668 - app - INFO - Request: GET http://127.0.0.1:8080/logout
+2024-09-20 23:48:50,668 - app - INFO - User: tom
+2024-09-20 23:48:50,676 - app - INFO - Request: GET http://127.0.0.1:8080/
+2024-09-20 23:48:50,677 - app - INFO - 用户 '<flask_login.mixins.AnonymousUserMixin object at 0x000001EA5F9457D0>' 访问了主页
+2024-09-20 23:48:50,720 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/index.css
+2024-09-20 23:48:51,520 - app - INFO - Request: GET http://127.0.0.1:8080/login
+2024-09-20 23:48:51,563 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/auth.css
+2024-09-20 23:48:53,655 - app - INFO - Request: POST http://127.0.0.1:8080/login
+2024-09-20 23:48:53,656 - app - INFO - Login attempt: 11
+2024-09-20 23:48:53,877 - app - INFO - 用户 'tom' logged in
+2024-09-20 23:48:53,888 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:48:53,888 - app - INFO - User: tom
+2024-09-20 23:48:53,889 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:48:53,947 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:48:53,948 - app - INFO - User: tom
+2024-09-20 23:48:53,953 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:48:53,955 - app - INFO - User: tom
+2024-09-20 23:48:55,230 - app - INFO - Request: GET http://127.0.0.1:8080/edit_profile
+2024-09-20 23:48:55,231 - app - INFO - User: tom
+2024-09-20 23:48:55,285 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/edit_profile.css
+2024-09-20 23:48:55,287 - app - INFO - User: tom
+2024-09-20 23:48:55,288 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:48:55,290 - app - INFO - User: tom
+2024-09-20 23:48:57,858 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 23:48:57,858 - app - INFO - User: tom
+2024-09-20 23:48:57,860 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 23:48:57,916 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:48:57,916 - app - INFO - User: tom
+2024-09-20 23:48:57,923 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 23:48:57,924 - app - INFO - User: tom
+2024-09-20 23:49:02,067 - app - INFO - Request: GET http://127.0.0.1:8080/get_conversation/1
+2024-09-20 23:49:02,067 - app - INFO - User: tom
+2024-09-20 23:49:02,069 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1
+2024-09-20 23:49:06,109 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 23:49:06,109 - app - INFO - User: tom
+2024-09-20 23:49:06,111 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 23:49:06,162 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:49:06,165 - app - INFO - User: tom
+2024-09-20 23:49:06,170 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 23:49:06,170 - app - INFO - User: tom
+2024-09-20 23:49:11,065 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:49:11,066 - app - INFO - User: tom
+2024-09-20 23:49:11,067 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:49:11,118 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:49:11,119 - app - INFO - User: tom
+2024-09-20 23:49:11,121 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:49:11,122 - app - INFO - User: tom
+2024-09-20 23:49:12,245 - app - INFO - Request: GET http://127.0.0.1:8080/history
+2024-09-20 23:49:12,246 - app - INFO - User: tom
+2024-09-20 23:49:12,248 - app - INFO - 用户 'tom' 访问了历史对话页面
+2024-09-20 23:49:12,290 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:49:12,292 - app - INFO - User: tom
+2024-09-20 23:49:12,295 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/history.css
+2024-09-20 23:49:12,297 - app - INFO - User: tom
+2024-09-20 23:51:33,661 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:51:33,662 - app - INFO - User: tom
+2024-09-20 23:51:33,663 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:51:33,711 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:51:33,712 - app - INFO - User: tom
+2024-09-20 23:51:33,716 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:51:33,717 - app - INFO - User: tom
+2024-09-20 23:57:15,044 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:57:15,044 - app - INFO - User: tom
+2024-09-20 23:57:15,045 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:57:15,099 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:57:15,100 - app - INFO - User: tom
+2024-09-20 23:57:15,111 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/logout.svg
+2024-09-20 23:57:15,111 - app - INFO - User: tom
+2024-09-20 23:57:15,112 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/logout.svg
+2024-09-20 23:57:15,125 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/chat.svg
+2024-09-20 23:57:15,126 - app - INFO - User: tom
+2024-09-20 23:57:15,127 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/chat.svg
+2024-09-20 23:57:15,154 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/time.svg
+2024-09-20 23:57:15,155 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:57:15,156 - app - INFO - User: tom
+2024-09-20 23:57:15,157 - app - INFO - User: tom
+2024-09-20 23:57:15,159 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/time.svg
+2024-09-20 23:57:15,160 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/history.svg
+2024-09-20 23:57:15,162 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/edit.svg
+2024-09-20 23:57:15,162 - app - INFO - User: tom
+2024-09-20 23:57:15,164 - app - INFO - User: tom
+2024-09-20 23:57:15,165 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/count.svg
+2024-09-20 23:57:15,165 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/history.svg
+2024-09-20 23:57:15,167 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/edit.svg
+2024-09-20 23:57:15,168 - app - INFO - User: tom
+2024-09-20 23:57:15,174 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/count.svg
+2024-09-20 23:57:15,182 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/chat.svg
+2024-09-20 23:57:15,183 - app - INFO - User: tom
+2024-09-20 23:57:15,186 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/chat.svg
+2024-09-20 23:57:16,913 - app - INFO - Request: GET http://127.0.0.1:8080/chat/1
+2024-09-20 23:57:16,913 - app - INFO - User: tom
+2024-09-20 23:57:16,914 - app - INFO - 用户 'tom' 访问了问答界面
+2024-09-20 23:57:16,965 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/style.css
+2024-09-20 23:57:16,968 - app - INFO - User: tom
+2024-09-20 23:57:16,971 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/chat.css
+2024-09-20 23:57:16,972 - app - INFO - User: tom
+2024-09-20 23:57:16,984 - app - INFO - Request: GET http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:57:16,985 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/clear.svg
+2024-09-20 23:57:16,985 - app - INFO - User: tom
+2024-09-20 23:57:16,985 - app - INFO - User: tom
+2024-09-20 23:57:16,986 - app - WARNING - 404 error: http://127.0.0.1:8080/chat/static/uploads/user.jpg
+2024-09-20 23:57:17,002 - app - INFO - Request: GET http://127.0.0.1:8080/static/js/script.js
+2024-09-20 23:57:17,002 - app - INFO - User: tom
+2024-09-20 23:57:17,037 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/system.jpg
+2024-09-20 23:57:17,038 - app - INFO - User: tom
+2024-09-20 23:57:17,047 - app - INFO - Request: GET http://127.0.0.1:8080/get_history
+2024-09-20 23:57:17,047 - app - INFO - User: tom
+2024-09-20 23:57:17,052 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录
+2024-09-20 23:57:17,090 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/delete.svg
+2024-09-20 23:57:17,090 - app - INFO - User: tom
+2024-09-20 23:57:56,137 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:57:56,138 - app - INFO - User: tom
+2024-09-20 23:57:56,139 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:57:56,185 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:57:56,186 - app - INFO - User: tom
+2024-09-20 23:57:56,190 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/logout.svg
+2024-09-20 23:57:56,191 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/对话.svg
+2024-09-20 23:57:56,191 - app - INFO - User: tom
+2024-09-20 23:57:56,193 - app - INFO - User: tom
+2024-09-20 23:57:56,194 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/logout.svg
+2024-09-20 23:57:56,216 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/time.svg
+2024-09-20 23:57:56,217 - app - INFO - User: tom
+2024-09-20 23:57:56,218 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/time.svg
+2024-09-20 23:57:56,220 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:57:56,221 - app - INFO - User: tom
+2024-09-20 23:57:56,227 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/chat.svg
+2024-09-20 23:57:56,228 - app - INFO - User: tom
+2024-09-20 23:57:56,228 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/history.svg
+2024-09-20 23:57:56,230 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/chat.svg
+2024-09-20 23:57:56,230 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/count.svg
+2024-09-20 23:57:56,231 - app - INFO - User: tom
+2024-09-20 23:57:56,231 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/edit.svg
+2024-09-20 23:57:56,232 - app - INFO - User: tom
+2024-09-20 23:57:56,233 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/history.svg
+2024-09-20 23:57:56,233 - app - INFO - User: tom
+2024-09-20 23:57:56,234 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/count.svg
+2024-09-20 23:57:56,237 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/edit.svg
+2024-09-20 23:59:04,376 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-20 23:59:04,376 - app - INFO - User: tom
+2024-09-20 23:59:04,377 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-20 23:59:04,428 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-20 23:59:04,428 - app - INFO - User: tom
+2024-09-20 23:59:04,438 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/对话.svg
+2024-09-20 23:59:04,439 - app - INFO - User: tom
+2024-09-20 23:59:04,440 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/退出.svg
+2024-09-20 23:59:04,441 - app - INFO - User: tom
+2024-09-20 23:59:04,463 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-20 23:59:04,466 - app - INFO - User: tom
+2024-09-20 23:59:04,472 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/时间.svg
+2024-09-20 23:59:04,473 - app - INFO - User: tom
+2024-09-20 23:59:04,475 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/累计次数.svg
+2024-09-20 23:59:04,477 - app - INFO - User: tom
+2024-09-20 23:59:04,479 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/edit.svg
+2024-09-20 23:59:04,481 - app - INFO - User: tom
+2024-09-20 23:59:04,481 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/历史记录.svg
+2024-09-20 23:59:04,482 - app - WARNING - 404 error: http://127.0.0.1:8080/static/svg/edit.svg
+2024-09-20 23:59:04,483 - app - INFO - User: tom
+2024-09-21 00:00:59,185 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-21 00:00:59,185 - app - INFO - User: tom
+2024-09-21 00:00:59,185 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-21 00:00:59,234 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-21 00:00:59,235 - app - INFO - User: tom
+2024-09-21 00:00:59,237 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/对话.svg
+2024-09-21 00:00:59,239 - app - INFO - User: tom
+2024-09-21 00:00:59,241 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/退出.svg
+2024-09-21 00:00:59,243 - app - INFO - User: tom
+2024-09-21 00:00:59,267 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/累计次数.svg
+2024-09-21 00:00:59,269 - app - INFO - User: tom
+2024-09-21 00:00:59,273 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/时间.svg
+2024-09-21 00:00:59,274 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-21 00:00:59,275 - app - INFO - User: tom
+2024-09-21 00:00:59,275 - app - INFO - User: tom
+2024-09-21 00:00:59,276 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/编辑.svg
+2024-09-21 00:00:59,277 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/历史记录.svg
+2024-09-21 00:00:59,282 - app - INFO - User: tom
+2024-09-21 00:00:59,284 - app - INFO - User: tom
+2024-09-21 00:02:31,571 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-21 00:02:31,573 - app - INFO - User: tom
+2024-09-21 00:02:31,573 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-21 00:02:31,618 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/对话.svg
+2024-09-21 00:02:31,619 - app - INFO - User: tom
+2024-09-21 00:02:31,619 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/退出.svg
+2024-09-21 00:02:31,620 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-21 00:02:31,621 - app - INFO - User: tom
+2024-09-21 00:02:31,622 - app - INFO - User: tom
+2024-09-21 00:02:31,642 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-21 00:02:31,645 - app - INFO - User: tom
+2024-09-21 00:02:31,652 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/时间.svg
+2024-09-21 00:02:31,654 - app - INFO - User: tom
+2024-09-21 00:02:31,656 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/累计次数.svg
+2024-09-21 00:02:31,658 - app - INFO - User: tom
+2024-09-21 00:02:31,661 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/历史记录.svg
+2024-09-21 00:02:31,664 - app - INFO - User: tom
+2024-09-21 00:02:31,664 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/编辑.svg
+2024-09-21 00:02:31,667 - app - INFO - User: tom
+2024-09-21 00:04:04,801 - app - INFO - Request: GET http://127.0.0.1:8080/dashboard
+2024-09-21 00:04:04,801 - app - INFO - User: tom
+2024-09-21 00:04:04,802 - app - INFO - 用户 'tom' 访问了个人主页
+2024-09-21 00:04:04,845 - app - INFO - Request: GET http://127.0.0.1:8080/static/css/dashboard.css
+2024-09-21 00:04:04,846 - app - INFO - User: tom
+2024-09-21 00:04:04,849 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/对话.svg
+2024-09-21 00:04:04,850 - app - INFO - User: tom
+2024-09-21 00:04:04,850 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/退出.svg
+2024-09-21 00:04:04,852 - app - INFO - User: tom
+2024-09-21 00:04:04,873 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/时间.svg
+2024-09-21 00:04:04,874 - app - INFO - User: tom
+2024-09-21 00:04:04,875 - app - INFO - Request: GET http://127.0.0.1:8080/static/uploads/user.jpg
+2024-09-21 00:04:04,877 - app - INFO - User: tom
+2024-09-21 00:04:04,878 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/历史记录.svg
+2024-09-21 00:04:04,879 - app - INFO - User: tom
+2024-09-21 00:04:04,881 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/编辑.svg
+2024-09-21 00:04:04,885 - app - INFO - Request: GET http://127.0.0.1:8080/static/svg/累计次数.svg
+2024-09-21 00:04:04,885 - app - INFO - User: tom
+2024-09-21 00:04:04,888 - app - INFO - User: tom

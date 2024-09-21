@@ -1,0 +1,100 @@
+.auth-body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px; /* 减小内边距 */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px; /* 增大标题字体 */
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form .form-group {
+    margin-bottom: 20px;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 8px; /* 增加标签底部间距 */
+    color: #555;
+    font-size: 16px; /* 增大标签字体 */
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 12px; /* 增加输入框内边距 */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.auth-button {
+    width: 100%;
+    padding: 14px; /* 增加按钮高度 */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px; /* 增大按钮字体 */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* 增加按钮顶部间距 */
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px; /* 调整链接字体大小 */
+}
+
+.auth-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+.flashes {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.flashes li {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 12px; /* 增加闪现消息内边距 */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px; /* 调整闪现消息字体大小 */
+}

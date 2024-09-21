@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对话详情 - AI 助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/conversation_detail.css') }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="{{ url_for('main.history') }}" class="back-button">
+                <i class="material-icons">arrow_back</i> 返回历史记录
+            </a>
+            <div class="logo">AI 助手</div>
+            <div class="nav-links">
+                <span class="welcome-message">欢迎，{{ current_user.username }}</span>
+                <a href="{{ url_for('main.dashboard') }}" class="nav-link">个人主页</a>
+                <a href="{{ url_for('auth.logout') }}" class="nav-link">登出</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="chat-container">
+            <div id="chat" class="chat-messages">
+                {% for message in messages %}
+                    <div class="message {{ 'user' if message.sender == 'user' else 'ai' }}">
+                        <img src="{{ url_for('static', filename='uploads/user.jpg') if message.sender == 'user' else url_for('static', filename='uploads/system.jpg') }}" alt="{{ message.sender }} avatar" class="avatar">
+                        <div class="message-content">
+                            <p>{{ message.content }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - AI助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+</head>
+<body class="auth-body {% if current_user.is_authenticated %}logged-in{% endif %}">
+    <div class="auth-container">
+        <h2>登录AI助手</h2>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul class="flashes">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        <form method="POST" class="auth-form">
+            <div class="form-group">
+                <label for="login_id">用户名/邮箱/手机号</label>
+                <input type="text" id="login_id" name="login_id" required>
+            </div>
+            <div class="form-group">
+                <label for="password">密码</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="auth-button">登录</button>
+        </form>
+        <p class="auth-link">还没有账号？<a href="{{ url_for('auth.register') }}">立即注册</a></p>
+    </div>
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>历史对话 - AI 助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/history.css') }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="{{ url_for('main.dashboard') }}" class="back-button">
+                <i class="material-icons">arrow_back</i> 返回个人主页
+            </a>
+            <div class="logo">AI 助手</div>
+            <div class="nav-links">
+                <span class="welcome-message">欢迎，{{ current_user.username }}</span>
+                <a href="{{ url_for('main.chat', user_id=current_user.id) }}" class="nav-link">开始对话</a>
+                <a href="{{ url_for('auth.logout') }}" class="nav-link">登出</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="history-content">
+            <h1>历史对话</h1>
+            {% if histories %}
+                <ul class="history-list">
+                    {% for history in histories %}
+                        <li class="history-item">
+                            <h3>{{ history.get_conversations()[0]['question'][:30] if history.get_conversations() else "空对话" }}</h3>
+                            <p>创建时间: {{ history.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+                            <a href="{{ url_for('main.conversation_detail', history_id=history.id) }}" class="btn btn-secondary">查看详情</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>暂无历史对话</p>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>

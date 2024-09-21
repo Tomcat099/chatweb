@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <a href="{{ url_for('main.dashboard') }}" class="back-button">
+        <i class="material-icons">arrow_back</i>
+    </a>
+    <div class="app-container">
+        <nav class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar" onclick="toggleMenu()">
+                    <img src="{{ current_user.avatar }}">
+                    <div id="avatar-menu" class="avatar-menu" style="display: none;">
+                        <ul>
+                            <li><a href="{{ url_for('main.dashboard') }}">个人主页</a></li>
+                            <li><a href="{{ url_for('auth.edit_profile') }}">编辑</a></li>
+                            <li><a href="#" onclick="confirmDelete()">注销</a></li>
+                            <li><a href="{{ url_for('auth.logout') }}">退出</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h1>{{ current_user.username }}</h1>
+            </div>
+            <div class="nav-buttons">
+                <button id="newChat" class="nav-button">
+                    <span class="material-icons">add</span>
+                    新建对话
+                </button>
+                <button id="clearAllHistory" class="nav-button" title="清空所有历史记录">
+                    <img src="{{ url_for('static', filename='svg/clear.svg') }}" alt="清空" class="svg-icon">
+                </button>
+            </div>
+            <div id="historyList" class="history-list"></div>
+        </nav>
+        <div class="chat-container">
+            <div id="chat" class="chat-messages"></div>
+            <div class="input-area">
+                <label for="fileUpload" class="icon-button">
+                    <span class="material-icons">attach_file</span>
+                </label>
+                <input type="file" id="fileUpload" style="display: none;">
+                <input type="text" id="question" placeholder="输入您的问题...">
+                <button id="submit" class="icon-button">
+                    <span class="material-icons">send</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var userAvatar = "{{ current_user.avatar }}";
+        var deleteHistoryUrl = "{{ url_for('main.delete_history', history_id=0) }}".slice(0, -1);
+        var deleteAccountUrl = "{{ url_for('auth.delete_account') }}";
+    </script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

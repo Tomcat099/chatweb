@@ -41,3 +41,293 @@
 2024-10-10 09:45:14,508 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 2
 2024-10-10 09:45:14,547 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
 2024-10-10 09:45:14,547 - app - INFO - User: ttt
+2024-10-10 15:06:17,546 - app - INFO - Request: GET http://127.0.0.1:8001/
+2024-10-10 15:06:17,551 - app - INFO - User: ttt
+2024-10-10 15:06:17,552 - app - INFO - 用户 'ttt' 访问了首页，重定向到个人主页
+2024-10-10 15:06:17,567 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:06:17,568 - app - INFO - User: ttt
+2024-10-10 15:06:17,569 - app - INFO - 用户 'ttt' 访问了个人主页
+2024-10-10 15:06:17,627 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:06:17,628 - app - INFO - User: ttt
+2024-10-10 15:06:17,634 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:06:17,634 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:06:17,635 - app - INFO - User: ttt
+2024-10-10 15:06:17,636 - app - INFO - User: ttt
+2024-10-10 15:06:17,692 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:06:17,692 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:06:17,692 - app - INFO - User: ttt
+2024-10-10 15:06:17,692 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:06:17,693 - app - INFO - User: ttt
+2024-10-10 15:06:17,694 - app - INFO - User: ttt
+2024-10-10 15:06:17,814 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:06:17,814 - app - INFO - User: ttt
+2024-10-10 15:06:17,823 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:06:17,824 - app - INFO - User: ttt
+2024-10-10 15:06:20,087 - app - INFO - Request: GET http://127.0.0.1:8001/chat/3
+2024-10-10 15:06:20,087 - app - INFO - User: ttt
+2024-10-10 15:06:20,088 - app - INFO - 用户 'ttt' 访问了问答界面 - 详情: 用户ID: 3
+2024-10-10 15:06:20,141 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 15:06:20,142 - app - INFO - User: ttt
+2024-10-10 15:06:20,148 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 15:06:20,152 - app - INFO - User: ttt
+2024-10-10 15:06:20,157 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:06:20,158 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/clear.svg
+2024-10-10 15:06:20,158 - app - INFO - User: ttt
+2024-10-10 15:06:20,161 - app - INFO - User: ttt
+2024-10-10 15:06:20,164 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/script.js
+2024-10-10 15:06:20,165 - app - INFO - User: ttt
+2024-10-10 15:06:20,198 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:06:20,199 - app - INFO - User: ttt
+2024-10-10 15:06:20,207 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:06:20,207 - app - INFO - User: ttt
+2024-10-10 15:06:20,212 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 ttt 的所有历史记录, 记录数: 2
+2024-10-10 15:06:20,213 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 2
+2024-10-10 15:06:20,238 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
+2024-10-10 15:06:20,238 - app - INFO - User: ttt
+2024-10-10 15:06:24,003 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:06:24,004 - app - INFO - User: ttt
+2024-10-10 15:06:24,005 - app - INFO - 用户 'ttt' 点击了 提交问题按钮
+2024-10-10 15:06:24,005 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:06:24,007 - app - INFO - User: ttt
+2024-10-10 15:06:24,009 - app - INFO - 用户 'ttt' 提出了问题 - 详情: 问题内容: 大数据的专业代码是什么...
+2024-10-10 15:06:45,427 - app - INFO - 数据库写入 - 模型: History - 详情: 新建对话 ID: 13, 用户: ttt
+2024-10-10 15:06:45,462 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 13, 用户: ttt, 新增问答数: 1
+2024-10-10 15:06:45,481 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:06:45,482 - app - INFO - User: ttt
+2024-10-10 15:06:45,484 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 ttt 的所有历史记录, 记录数: 3
+2024-10-10 15:06:45,484 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 3
+2024-10-10 15:06:49,746 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/13
+2024-10-10 15:06:49,746 - app - INFO - User: ttt
+2024-10-10 15:06:49,746 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:06:49,748 - app - INFO - User: ttt
+2024-10-10 15:06:49,748 - app - INFO - 用户 'ttt' 点击了 历史记录项 - 详情: 历史记录ID: 13
+2024-10-10 15:06:49,751 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 13, 用户: ttt
+2024-10-10 15:06:49,752 - app - INFO - 用户 'ttt' 查看了历史对话 - 详情: 对话 ID: 13
+2024-10-10 15:06:52,545 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:06:52,546 - app - INFO - User: ttt
+2024-10-10 15:06:52,546 - app - INFO - 用户 'ttt' 点击了 新建对话按钮
+2024-10-10 15:07:16,792 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:07:16,793 - app - INFO - User: ttt
+2024-10-10 15:07:16,793 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:07:16,793 - app - INFO - 用户 'ttt' 点击了 提交问题按钮
+2024-10-10 15:07:16,795 - app - INFO - User: ttt
+2024-10-10 15:07:16,796 - app - INFO - 用户 'ttt' 提出了问题 - 详情: 问题内容: 椎体爆裂骨折是什么疾病...
+2024-10-10 15:07:42,887 - app - INFO - 数据库写入 - 模型: History - 详情: 新建对话 ID: 14, 用户: ttt
+2024-10-10 15:07:42,923 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 14, 用户: ttt, 新增问答数: 1
+2024-10-10 15:07:42,950 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:07:42,951 - app - INFO - User: ttt
+2024-10-10 15:07:42,953 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 ttt 的所有历史记录, 记录数: 4
+2024-10-10 15:07:42,954 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 4
+2024-10-10 15:07:51,612 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:07:51,613 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:07:51,613 - app - INFO - User: ttt
+2024-10-10 15:07:51,613 - app - INFO - User: ttt
+2024-10-10 15:07:51,614 - app - INFO - 用户 'ttt' 点击了 提交问题按钮
+2024-10-10 15:07:51,614 - app - INFO - 用户 'ttt' 提出了问题 - 详情: 问题内容: 椎体爆裂骨折吃什么...
+2024-10-10 15:08:27,511 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 15:08:27,593 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 15:08:27,607 - app - INFO - User: ttt
+2024-10-10 15:08:27,700 - app - INFO - User: ttt
+2024-10-10 15:08:31,931 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 14, 用户: ttt
+2024-10-10 15:08:31,941 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 14, 用户: ttt, 新增问答数: 1
+2024-10-10 15:08:32,011 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:08:32,012 - app - INFO - User: ttt
+2024-10-10 15:08:32,016 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 ttt 的所有历史记录, 记录数: 4
+2024-10-10 15:08:32,017 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 4
+2024-10-10 15:08:54,119 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:08:54,119 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:08:54,120 - app - INFO - User: ttt
+2024-10-10 15:08:54,120 - app - INFO - User: ttt
+2024-10-10 15:08:54,121 - app - INFO - 用户 'ttt' 点击了 提交问题按钮
+2024-10-10 15:08:54,122 - app - INFO - 用户 'ttt' 提出了问题 - 详情: 问题内容: 椎体爆裂骨折应该吃什么...
+2024-10-10 15:09:34,102 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 14, 用户: ttt
+2024-10-10 15:09:34,106 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 14, 用户: ttt, 新增问答数: 1
+2024-10-10 15:09:34,122 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:09:34,124 - app - INFO - User: ttt
+2024-10-10 15:09:34,126 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 ttt 的所有历史记录, 记录数: 4
+2024-10-10 15:09:34,127 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 4
+2024-10-10 15:09:48,390 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:09:48,390 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/14
+2024-10-10 15:09:48,390 - app - INFO - User: ttt
+2024-10-10 15:09:48,391 - app - INFO - User: ttt
+2024-10-10 15:09:48,391 - app - INFO - 用户 'ttt' 点击了 历史记录项 - 详情: 历史记录ID: 14
+2024-10-10 15:09:48,394 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 14, 用户: ttt
+2024-10-10 15:09:48,395 - app - INFO - 用户 'ttt' 查看了历史对话 - 详情: 对话 ID: 14
+2024-10-10 15:09:50,764 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:09:50,764 - app - INFO - User: ttt
+2024-10-10 15:09:50,765 - app - INFO - 用户 'ttt' 访问了个人主页
+2024-10-10 15:09:50,819 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:09:50,820 - app - INFO - User: ttt
+2024-10-10 15:09:50,827 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:09:50,828 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:09:50,828 - app - INFO - User: ttt
+2024-10-10 15:09:50,829 - app - INFO - User: ttt
+2024-10-10 15:09:50,852 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:09:50,856 - app - INFO - User: ttt
+2024-10-10 15:09:50,865 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:09:50,865 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:09:50,866 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:09:50,866 - app - INFO - User: ttt
+2024-10-10 15:09:50,867 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:09:50,868 - app - INFO - User: ttt
+2024-10-10 15:09:50,869 - app - INFO - User: ttt
+2024-10-10 15:09:50,871 - app - INFO - User: ttt
+2024-10-10 15:10:04,166 - app - INFO - Request: GET http://127.0.0.1:8001/logout
+2024-10-10 15:10:04,166 - app - INFO - User: ttt
+2024-10-10 15:10:04,168 - app - INFO - 用户 'ttt' logged out
+2024-10-10 15:10:04,177 - app - INFO - Request: GET http://127.0.0.1:8001/
+2024-10-10 15:10:04,178 - app - INFO - 未登录用户访问首页
+2024-10-10 15:10:04,231 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/index.css
+2024-10-10 15:10:06,980 - app - INFO - Request: GET http://127.0.0.1:8001/chat_redirect
+2024-10-10 15:10:06,980 - app - INFO - 未登录用户尝试开始新对话，重定向到登录页面
+2024-10-10 15:10:06,989 - app - INFO - Request: GET http://127.0.0.1:8001/login?next=chat
+2024-10-10 15:10:07,043 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/auth.css
+2024-10-10 15:10:07,056 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/login.js
+2024-10-10 15:10:09,821 - app - INFO - Request: POST http://127.0.0.1:8001/login?next=chat
+2024-10-10 15:10:09,823 - app - INFO - Login attempt: 11
+2024-10-10 15:10:10,053 - app - INFO - 用户 'tom' logged in
+2024-10-10 15:10:10,066 - app - INFO - Request: GET http://127.0.0.1:8001/chat/1
+2024-10-10 15:10:10,066 - app - INFO - User: tom
+2024-10-10 15:10:10,067 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 15:10:10,115 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 15:10:10,116 - app - INFO - User: tom
+2024-10-10 15:10:10,134 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 15:10:10,136 - app - INFO - User: tom
+2024-10-10 15:10:10,138 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:10:10,139 - app - INFO - User: tom
+2024-10-10 15:10:10,141 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/clear.svg
+2024-10-10 15:10:10,142 - app - INFO - User: tom
+2024-10-10 15:10:10,151 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/script.js
+2024-10-10 15:10:10,152 - app - INFO - User: tom
+2024-10-10 15:10:10,167 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:10:10,167 - app - INFO - User: tom
+2024-10-10 15:10:10,173 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:10:10,173 - app - INFO - User: tom
+2024-10-10 15:10:10,177 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 5
+2024-10-10 15:10:10,178 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 5
+2024-10-10 15:10:10,202 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
+2024-10-10 15:10:10,203 - app - INFO - User: tom
+2024-10-10 15:10:13,656 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:10:13,656 - app - INFO - User: tom
+2024-10-10 15:10:13,657 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 2
+2024-10-10 15:10:13,657 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/2
+2024-10-10 15:10:13,658 - app - INFO - User: tom
+2024-10-10 15:10:13,660 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 2, 用户: tom
+2024-10-10 15:10:13,661 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 2
+2024-10-10 15:10:15,290 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/3
+2024-10-10 15:10:15,291 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:10:15,291 - app - INFO - User: tom
+2024-10-10 15:10:15,292 - app - INFO - User: tom
+2024-10-10 15:10:15,294 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 3
+2024-10-10 15:10:15,294 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 3, 用户: tom
+2024-10-10 15:10:15,295 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 3
+2024-10-10 15:10:16,047 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:10:16,047 - app - INFO - User: tom
+2024-10-10 15:10:16,047 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/4
+2024-10-10 15:10:16,048 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 4
+2024-10-10 15:10:16,048 - app - INFO - User: tom
+2024-10-10 15:10:16,052 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 4, 用户: tom
+2024-10-10 15:10:16,052 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 4
+2024-10-10 15:10:16,551 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:10:16,551 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/11
+2024-10-10 15:10:16,552 - app - INFO - User: tom
+2024-10-10 15:10:16,552 - app - INFO - User: tom
+2024-10-10 15:10:16,553 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 11
+2024-10-10 15:10:16,555 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 11, 用户: tom
+2024-10-10 15:10:16,556 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 11
+2024-10-10 15:10:16,941 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/4
+2024-10-10 15:10:16,942 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:10:16,942 - app - INFO - User: tom
+2024-10-10 15:10:16,942 - app - INFO - User: tom
+2024-10-10 15:10:16,944 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 4, 用户: tom
+2024-10-10 15:10:16,944 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 4
+2024-10-10 15:10:16,945 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 4
+2024-10-10 15:10:18,146 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:10:18,147 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/11
+2024-10-10 15:10:18,147 - app - INFO - User: tom
+2024-10-10 15:10:18,148 - app - INFO - User: tom
+2024-10-10 15:10:18,148 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 11
+2024-10-10 15:10:18,151 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 11, 用户: tom
+2024-10-10 15:10:18,152 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 11
+2024-10-10 15:10:21,790 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:10:21,790 - app - INFO - User: tom
+2024-10-10 15:10:21,791 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 15:10:21,853 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:10:21,854 - app - INFO - User: tom
+2024-10-10 15:10:21,858 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:10:21,858 - app - INFO - User: tom
+2024-10-10 15:10:21,859 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:10:21,861 - app - INFO - User: tom
+2024-10-10 15:10:21,886 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:10:21,887 - app - INFO - User: tom
+2024-10-10 15:10:21,889 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:10:21,891 - app - INFO - User: tom
+2024-10-10 15:10:21,894 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:10:21,894 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:10:21,895 - app - INFO - User: tom
+2024-10-10 15:10:21,898 - app - INFO - User: tom
+2024-10-10 15:10:21,898 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:10:21,905 - app - INFO - User: tom
+2024-10-10 15:10:23,481 - app - INFO - Request: GET http://127.0.0.1:8001/history
+2024-10-10 15:10:23,481 - app - INFO - User: tom
+2024-10-10 15:10:23,483 - app - INFO - 用户 'tom' 访问了历史对话页面 - 详情: 历史对话数量: 5
+2024-10-10 15:10:23,484 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 5
+2024-10-10 15:10:23,542 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:10:23,545 - app - INFO - User: tom
+2024-10-10 15:10:23,549 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/history.css
+2024-10-10 15:10:23,550 - app - INFO - User: tom
+2024-10-10 15:10:26,099 - app - INFO - Request: GET http://127.0.0.1:8001/conversation/1
+2024-10-10 15:10:26,100 - app - INFO - User: tom
+2024-10-10 15:10:26,102 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 1, 用户: tom
+2024-10-10 15:10:26,102 - app - INFO - 用户 'tom' 查看了对话详情 - 详情: 对话 ID: 1
+2024-10-10 15:10:26,158 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/conversation_detail.css
+2024-10-10 15:10:26,160 - app - INFO - User: tom
+2024-10-10 15:10:26,161 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:10:26,166 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:10:26,166 - app - INFO - User: tom
+2024-10-10 15:10:26,167 - app - INFO - User: tom
+2024-10-10 15:10:28,255 - app - INFO - Request: GET http://127.0.0.1:8001/history
+2024-10-10 15:10:28,256 - app - INFO - User: tom
+2024-10-10 15:10:28,257 - app - INFO - 用户 'tom' 访问了历史对话页面 - 详情: 历史对话数量: 5
+2024-10-10 15:10:28,257 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 5
+2024-10-10 15:10:28,299 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:10:28,301 - app - INFO - User: tom
+2024-10-10 15:10:28,305 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/history.css
+2024-10-10 15:10:28,306 - app - INFO - User: tom
+2024-10-10 15:10:29,354 - app - INFO - Request: GET http://127.0.0.1:8001/conversation/2
+2024-10-10 15:10:29,355 - app - INFO - User: tom
+2024-10-10 15:10:29,356 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 2, 用户: tom
+2024-10-10 15:10:29,357 - app - INFO - 用户 'tom' 查看了对话详情 - 详情: 对话 ID: 2
+2024-10-10 15:10:29,409 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/conversation_detail.css
+2024-10-10 15:10:29,412 - app - INFO - User: tom
+2024-10-10 15:10:29,417 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:10:29,421 - app - INFO - User: tom
+2024-10-10 15:10:29,423 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:10:29,424 - app - INFO - User: tom
+2024-10-10 15:10:30,221 - app - INFO - Request: GET http://127.0.0.1:8001/history
+2024-10-10 15:10:30,222 - app - INFO - User: tom
+2024-10-10 15:10:30,223 - app - INFO - 用户 'tom' 访问了历史对话页面 - 详情: 历史对话数量: 5
+2024-10-10 15:10:30,223 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 5
+2024-10-10 15:10:30,267 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:10:30,269 - app - INFO - User: tom
+2024-10-10 15:10:30,272 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/history.css
+2024-10-10 15:10:30,274 - app - INFO - User: tom
+2024-10-10 15:10:30,664 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:10:30,665 - app - INFO - User: tom
+2024-10-10 15:10:30,665 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 15:10:30,711 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:10:30,712 - app - INFO - User: tom
+2024-10-10 15:10:30,718 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:10:30,719 - app - INFO - User: tom
+2024-10-10 15:10:30,727 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:10:30,728 - app - INFO - User: tom
+2024-10-10 15:10:30,744 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:10:30,746 - app - INFO - User: tom
+2024-10-10 15:10:30,750 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:10:30,750 - app - INFO - User: tom
+2024-10-10 15:10:30,753 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:10:30,755 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:10:30,755 - app - INFO - User: tom
+2024-10-10 15:10:30,756 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:10:30,757 - app - INFO - User: tom
+2024-10-10 15:10:30,761 - app - INFO - User: tom

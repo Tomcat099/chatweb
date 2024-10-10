@@ -1,4 +1,8 @@
 import re
+from question_classifier import *
+from question_parser import *
+from answer_search import *
+
 
 qa_database = {
     "你好": "你好！很高兴见到你。",
@@ -26,12 +30,27 @@ def find_best_match(question):
     return best_match if max_similarity > 0.5 else None
 
 def generate_answer(question):
-    best_match = find_best_match(question)
-    if best_match:
-        return qa_database[best_match]
+    classifier = QuestionClassifier()
+    parser = QuestionPaser()
+    searcher = AnswerSearcher()
+
+    answer = '您好，我是医药智能助理，希望可以帮到您。如果没答上来，可以规范下用词。祝您身体棒棒！'
+    res_classify = classifier.classify(question)
+    if not res_classify:
+        return answer
+    res_sql = parser.parser_main(res_classify)
+    final_answers = searcher.search_main(res_sql)
+    if not final_answers:
+        return answer
     else:
-        keywords = re.findall(r'\b\w+\b', question.lower())
-        for key in qa_database.keys():
-            if any(keyword in key.lower() for keyword in keywords):
-                return qa_database[key]
-    return "抱歉，我没有找到相关的答案。您可以尝试用不同的方式提问，或者问一些我知道的问题。"
+        return '\n'.join(final_answers)
+
+    # best_match = find_best_match(question)
+    # if best_match:
+    #     return qa_database[best_match]
+    # else:
+    #     keywords = re.findall(r'\b\w+\b', question.lower())
+    #     for key in qa_database.keys():
+    #         if any(keyword in key.lower() for keyword in keywords):
+    #             return qa_database[key]
+    # return answer

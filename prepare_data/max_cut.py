@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 # File: maxmatch.py
-# Author: lhy<lhy_in_blcu@126.com,https://huangyong.github.io>
-# Date: 18-3-26
+# Date: 24-10-10
 
 class CutWords:
     def __init__(self):

@@ -458,3 +458,446 @@
 2024-10-10 15:48:48,668 - app - INFO - User: tom
 2024-10-10 15:48:48,671 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
 2024-10-10 15:48:48,672 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:54:18,222 - app - INFO - Request: GET http://127.0.0.1:8001/
+2024-10-10 15:54:18,222 - app - INFO - User: tom
+2024-10-10 15:54:18,223 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 15:54:18,237 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:54:18,239 - app - INFO - User: tom
+2024-10-10 15:54:18,240 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 15:54:18,297 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:54:18,298 - app - INFO - User: tom
+2024-10-10 15:54:18,301 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:54:18,301 - app - INFO - User: tom
+2024-10-10 15:54:18,315 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:54:18,316 - app - INFO - User: tom
+2024-10-10 15:54:18,354 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:54:18,354 - app - INFO - User: tom
+2024-10-10 15:54:18,376 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:54:18,377 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:54:18,378 - app - INFO - User: tom
+2024-10-10 15:54:18,378 - app - INFO - User: tom
+2024-10-10 15:54:18,487 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:54:18,487 - app - INFO - User: tom
+2024-10-10 15:54:18,496 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:54:18,497 - app - INFO - User: tom
+2024-10-10 15:59:38,268 - app - INFO - Request: GET http://127.0.0.1:8001/chat/1
+2024-10-10 15:59:38,269 - app - INFO - User: tom
+2024-10-10 15:59:38,269 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 15:59:38,326 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 15:59:38,327 - app - INFO - User: tom
+2024-10-10 15:59:38,341 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 15:59:38,343 - app - INFO - User: tom
+2024-10-10 15:59:38,345 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/clear.svg
+2024-10-10 15:59:38,349 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:59:38,349 - app - INFO - User: tom
+2024-10-10 15:59:38,350 - app - INFO - User: tom
+2024-10-10 15:59:38,352 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/script.js
+2024-10-10 15:59:38,356 - app - INFO - User: tom
+2024-10-10 15:59:38,392 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:59:38,392 - app - INFO - User: tom
+2024-10-10 15:59:38,405 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:59:38,405 - app - INFO - User: tom
+2024-10-10 15:59:38,411 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:59:38,412 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:59:38,436 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
+2024-10-10 15:59:38,438 - app - INFO - User: tom
+2024-10-10 15:59:41,383 - app - INFO - Request: DELETE http://127.0.0.1:8001/delete_history/1
+2024-10-10 15:59:41,383 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:59:41,384 - app - INFO - User: tom
+2024-10-10 15:59:41,384 - app - INFO - User: tom
+2024-10-10 15:59:41,386 - app - INFO - 用户 'tom' 点击了 删除历史记录 - 详情: 历史记录ID: 1
+2024-10-10 15:59:41,398 - app - INFO - 数据库删除 - 模型: History - 详情: 删除对话 ID: 1, 用户: tom
+2024-10-10 15:59:41,398 - app - INFO - 用户 'tom' 删除了历史对话 - 详情: 对话 ID: 1
+2024-10-10 15:59:43,035 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:59:43,035 - app - INFO - User: tom
+2024-10-10 15:59:43,035 - app - INFO - Request: DELETE http://127.0.0.1:8001/delete_history/2
+2024-10-10 15:59:43,037 - app - INFO - 用户 'tom' 点击了 删除历史记录 - 详情: 历史记录ID: 2
+2024-10-10 15:59:43,037 - app - INFO - User: tom
+2024-10-10 15:59:43,048 - app - INFO - 数据库删除 - 模型: History - 详情: 删除对话 ID: 2, 用户: tom
+2024-10-10 15:59:43,049 - app - INFO - 用户 'tom' 删除了历史对话 - 详情: 对话 ID: 2
+2024-10-10 15:59:44,309 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:59:44,309 - app - INFO - Request: DELETE http://127.0.0.1:8001/delete_history/3
+2024-10-10 15:59:44,309 - app - INFO - User: tom
+2024-10-10 15:59:44,310 - app - INFO - User: tom
+2024-10-10 15:59:44,311 - app - INFO - 用户 'tom' 点击了 删除历史记录 - 详情: 历史记录ID: 3
+2024-10-10 15:59:44,317 - app - INFO - 数据库删除 - 模型: History - 详情: 删除对话 ID: 3, 用户: tom
+2024-10-10 15:59:44,319 - app - INFO - 用户 'tom' 删除了历史对话 - 详情: 对话 ID: 3
+2024-10-10 15:59:45,817 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:59:45,818 - app - INFO - User: tom
+2024-10-10 15:59:45,818 - app - INFO - Request: DELETE http://127.0.0.1:8001/delete_history/4
+2024-10-10 15:59:45,818 - app - INFO - 用户 'tom' 点击了 删除历史记录 - 详情: 历史记录ID: 4
+2024-10-10 15:59:45,819 - app - INFO - User: tom
+2024-10-10 15:59:45,831 - app - INFO - 数据库删除 - 模型: History - 详情: 删除对话 ID: 4, 用户: tom
+2024-10-10 15:59:45,831 - app - INFO - 用户 'tom' 删除了历史对话 - 详情: 对话 ID: 4
+2024-10-10 15:59:47,288 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:59:47,289 - app - INFO - Request: DELETE http://127.0.0.1:8001/delete_history/11
+2024-10-10 15:59:47,289 - app - INFO - User: tom
+2024-10-10 15:59:47,290 - app - INFO - User: tom
+2024-10-10 15:59:47,290 - app - INFO - 用户 'tom' 点击了 删除历史记录 - 详情: 历史记录ID: 11
+2024-10-10 15:59:47,297 - app - INFO - 数据库删除 - 模型: History - 详情: 删除对话 ID: 11, 用户: tom
+2024-10-10 15:59:47,298 - app - INFO - 用户 'tom' 删除了历史对话 - 详情: 对话 ID: 11
+2024-10-10 15:59:49,112 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:59:49,112 - app - INFO - User: tom
+2024-10-10 15:59:49,113 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 15:59:49,167 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:59:49,167 - app - INFO - User: tom
+2024-10-10 15:59:49,177 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:59:49,178 - app - INFO - User: tom
+2024-10-10 15:59:49,184 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:59:49,190 - app - INFO - User: tom
+2024-10-10 15:59:49,190 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:59:49,195 - app - INFO - User: tom
+2024-10-10 15:59:49,196 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:59:49,200 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:59:49,204 - app - INFO - User: tom
+2024-10-10 15:59:49,205 - app - INFO - User: tom
+2024-10-10 15:59:49,206 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:59:49,209 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:59:49,211 - app - INFO - User: tom
+2024-10-10 15:59:49,213 - app - INFO - User: tom
+2024-10-10 15:59:50,215 - app - INFO - Request: GET http://127.0.0.1:8001/history
+2024-10-10 15:59:50,217 - app - INFO - User: tom
+2024-10-10 15:59:50,218 - app - INFO - 用户 'tom' 访问了历史对话页面 - 详情: 历史对话数量: 1
+2024-10-10 15:59:50,218 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 15:59:50,267 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:59:50,269 - app - INFO - User: tom
+2024-10-10 15:59:50,274 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/history.css
+2024-10-10 15:59:50,276 - app - INFO - User: tom
+2024-10-10 15:59:51,792 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:59:51,792 - app - INFO - User: tom
+2024-10-10 15:59:51,793 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 15:59:51,842 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:59:51,843 - app - INFO - User: tom
+2024-10-10 15:59:51,849 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:59:51,850 - app - INFO - User: tom
+2024-10-10 15:59:51,868 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:59:51,871 - app - INFO - User: tom
+2024-10-10 15:59:51,873 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:59:51,874 - app - INFO - User: tom
+2024-10-10 15:59:51,881 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:59:51,882 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:59:51,883 - app - INFO - User: tom
+2024-10-10 15:59:51,884 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:59:51,884 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:59:51,884 - app - INFO - User: tom
+2024-10-10 15:59:51,886 - app - INFO - User: tom
+2024-10-10 15:59:51,887 - app - INFO - User: tom
+2024-10-10 15:59:53,912 - app - INFO - Request: GET http://127.0.0.1:8001/chat/1
+2024-10-10 15:59:53,912 - app - INFO - User: tom
+2024-10-10 15:59:53,913 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 15:59:53,962 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 15:59:53,963 - app - INFO - User: tom
+2024-10-10 15:59:53,977 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:59:53,979 - app - INFO - User: tom
+2024-10-10 15:59:53,979 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/clear.svg
+2024-10-10 15:59:53,980 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 15:59:53,980 - app - INFO - User: tom
+2024-10-10 15:59:53,981 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/script.js
+2024-10-10 15:59:53,981 - app - INFO - User: tom
+2024-10-10 15:59:53,983 - app - INFO - User: tom
+2024-10-10 15:59:54,004 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:59:54,005 - app - INFO - User: tom
+2024-10-10 15:59:54,008 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:59:54,010 - app - INFO - User: tom
+2024-10-10 15:59:54,013 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 15:59:54,014 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 1
+2024-10-10 15:59:54,035 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
+2024-10-10 15:59:54,035 - app - INFO - User: tom
+2024-10-10 16:11:42,668 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:11:42,669 - app - INFO - 未登录用户访问首页
+2024-10-10 16:11:42,867 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/index.css
+2024-10-10 16:11:43,885 - app - INFO - Request: GET http://961po03vb491.vicp.fun/favicon.ico
+2024-10-10 16:11:43,886 - app - WARNING - 404 error: http://961po03vb491.vicp.fun/favicon.ico
+2024-10-10 16:12:08,130 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:12:08,130 - app - INFO - 未登录用户访问首页
+2024-10-10 16:12:08,284 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/index.css
+2024-10-10 16:12:17,804 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:12:17,804 - app - INFO - 未登录用户访问首页
+2024-10-10 16:12:18,050 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/index.css
+2024-10-10 16:12:33,063 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:12:33,063 - app - INFO - 未登录用户访问首页
+2024-10-10 16:12:33,269 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/index.css
+2024-10-10 16:12:34,063 - app - INFO - Request: GET http://961po03vb491.vicp.fun/favicon.ico
+2024-10-10 16:12:34,064 - app - WARNING - 404 error: http://961po03vb491.vicp.fun/favicon.ico
+2024-10-10 16:12:35,025 - app - INFO - Request: GET http://961po03vb491.vicp.fun/chat_redirect
+2024-10-10 16:12:35,025 - app - INFO - 未登录用户尝试开始新对话，重定向到登录页面
+2024-10-10 16:12:35,722 - app - INFO - Request: GET http://961po03vb491.vicp.fun/login?next=chat
+2024-10-10 16:12:36,084 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/auth.css
+2024-10-10 16:12:36,087 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/js/login.js
+2024-10-10 16:12:50,341 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:12:50,341 - app - INFO - 未登录用户访问首页
+2024-10-10 16:12:51,041 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/index.css
+2024-10-10 16:13:07,462 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:13:07,463 - app - INFO - 未登录用户访问首页
+2024-10-10 16:13:07,627 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/index.css
+2024-10-10 16:13:08,817 - app - INFO - Request: GET http://961po03vb491.vicp.fun/chat_redirect
+2024-10-10 16:13:08,817 - app - INFO - 未登录用户尝试开始新对话，重定向到登录页面
+2024-10-10 16:13:08,971 - app - INFO - Request: GET http://961po03vb491.vicp.fun/login?next=chat
+2024-10-10 16:13:09,275 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/js/login.js
+2024-10-10 16:13:09,277 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/auth.css
+2024-10-10 16:13:12,135 - app - INFO - Request: POST http://961po03vb491.vicp.fun/login?next=chat
+2024-10-10 16:13:12,136 - app - INFO - Login attempt: 11
+2024-10-10 16:13:12,368 - app - INFO - 用户 'tom' logged in
+2024-10-10 16:13:12,508 - app - INFO - Request: GET http://961po03vb491.vicp.fun/chat/1
+2024-10-10 16:13:12,508 - app - INFO - User: tom
+2024-10-10 16:13:12,508 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 16:13:12,818 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/style.css
+2024-10-10 16:13:12,819 - app - INFO - User: tom
+2024-10-10 16:13:12,826 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/chat.css
+2024-10-10 16:13:12,828 - app - INFO - User: tom
+2024-10-10 16:13:12,831 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/clear.svg
+2024-10-10 16:13:12,832 - app - INFO - User: tom
+2024-10-10 16:13:12,833 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:12,835 - app - INFO - User: tom
+2024-10-10 16:13:13,119 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/js/script.js
+2024-10-10 16:13:13,119 - app - INFO - User: tom
+2024-10-10 16:13:13,487 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/system.jpg
+2024-10-10 16:13:13,488 - app - INFO - User: tom
+2024-10-10 16:13:13,488 - app - INFO - Request: GET http://961po03vb491.vicp.fun/get_history
+2024-10-10 16:13:13,490 - app - INFO - User: tom
+2024-10-10 16:13:13,492 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 16:13:13,493 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 1
+2024-10-10 16:13:13,766 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/delete.svg
+2024-10-10 16:13:13,766 - app - INFO - User: tom
+2024-10-10 16:13:20,013 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:13:20,014 - app - INFO - User: tom
+2024-10-10 16:13:20,014 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 16:13:20,285 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:13:20,285 - app - INFO - User: tom
+2024-10-10 16:13:20,287 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:13:20,569 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:13:20,569 - app - INFO - User: tom
+2024-10-10 16:13:20,573 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:13:20,574 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:13:20,574 - app - INFO - User: tom
+2024-10-10 16:13:20,574 - app - INFO - User: tom
+2024-10-10 16:13:20,632 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:13:20,633 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:13:20,633 - app - INFO - User: tom
+2024-10-10 16:13:20,634 - app - INFO - User: tom
+2024-10-10 16:13:20,641 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:20,641 - app - INFO - User: tom
+2024-10-10 16:13:20,800 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:13:20,800 - app - INFO - User: tom
+2024-10-10 16:13:20,802 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:13:20,803 - app - INFO - User: tom
+2024-10-10 16:13:21,694 - app - INFO - Request: GET http://961po03vb491.vicp.fun/chat/1
+2024-10-10 16:13:21,694 - app - INFO - User: tom
+2024-10-10 16:13:21,695 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 16:13:21,871 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/style.css
+2024-10-10 16:13:21,871 - app - INFO - User: tom
+2024-10-10 16:13:21,958 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/chat.css
+2024-10-10 16:13:21,959 - app - INFO - User: tom
+2024-10-10 16:13:21,970 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:21,971 - app - INFO - User: tom
+2024-10-10 16:13:21,971 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/clear.svg
+2024-10-10 16:13:21,972 - app - INFO - User: tom
+2024-10-10 16:13:22,254 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/js/script.js
+2024-10-10 16:13:22,254 - app - INFO - User: tom
+2024-10-10 16:13:22,525 - app - INFO - Request: GET http://961po03vb491.vicp.fun/get_history
+2024-10-10 16:13:22,527 - app - INFO - User: tom
+2024-10-10 16:13:22,529 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 16:13:22,530 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/system.jpg
+2024-10-10 16:13:22,530 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 1
+2024-10-10 16:13:22,531 - app - INFO - User: tom
+2024-10-10 16:13:22,799 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/delete.svg
+2024-10-10 16:13:22,800 - app - INFO - User: tom
+2024-10-10 16:13:24,929 - app - INFO - Request: GET http://961po03vb491.vicp.fun/get_conversation/15
+2024-10-10 16:13:24,929 - app - INFO - Request: POST http://961po03vb491.vicp.fun/log_click
+2024-10-10 16:13:24,930 - app - INFO - User: tom
+2024-10-10 16:13:24,931 - app - INFO - User: tom
+2024-10-10 16:13:24,932 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 16:13:24,933 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 15
+2024-10-10 16:13:24,933 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 15
+2024-10-10 16:13:30,580 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:13:30,580 - app - INFO - User: tom
+2024-10-10 16:13:30,581 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:13:30,778 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:13:30,779 - app - INFO - User: tom
+2024-10-10 16:13:30,909 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:13:30,911 - app - INFO - User: tom
+2024-10-10 16:13:30,915 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:13:30,916 - app - INFO - User: tom
+2024-10-10 16:13:30,917 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:13:30,917 - app - INFO - User: tom
+2024-10-10 16:13:30,920 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:13:30,921 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:30,921 - app - INFO - User: tom
+2024-10-10 16:13:30,922 - app - INFO - User: tom
+2024-10-10 16:13:31,011 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:13:31,012 - app - INFO - User: tom
+2024-10-10 16:13:31,237 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:13:31,237 - app - INFO - User: tom
+2024-10-10 16:13:33,943 - app - INFO - Request: GET http://961po03vb491.vicp.fun/chat/1
+2024-10-10 16:13:33,944 - app - INFO - User: tom
+2024-10-10 16:13:33,945 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 16:13:34,379 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/style.css
+2024-10-10 16:13:34,380 - app - INFO - User: tom
+2024-10-10 16:13:34,401 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/clear.svg
+2024-10-10 16:13:34,402 - app - INFO - User: tom
+2024-10-10 16:13:34,435 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/chat.css
+2024-10-10 16:13:34,435 - app - INFO - User: tom
+2024-10-10 16:13:34,451 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:34,451 - app - INFO - User: tom
+2024-10-10 16:13:34,689 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/js/script.js
+2024-10-10 16:13:34,690 - app - INFO - User: tom
+2024-10-10 16:13:35,004 - app - INFO - Request: GET http://961po03vb491.vicp.fun/get_history
+2024-10-10 16:13:35,005 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/system.jpg
+2024-10-10 16:13:35,005 - app - INFO - User: tom
+2024-10-10 16:13:35,005 - app - INFO - User: tom
+2024-10-10 16:13:35,008 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 16:13:35,009 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 1
+2024-10-10 16:13:35,488 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/delete.svg
+2024-10-10 16:13:35,488 - app - INFO - User: tom
+2024-10-10 16:13:36,454 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:13:36,454 - app - INFO - User: tom
+2024-10-10 16:13:36,455 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:13:39,228 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:13:39,228 - app - INFO - User: tom
+2024-10-10 16:13:39,380 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:39,384 - app - INFO - User: tom
+2024-10-10 16:13:39,391 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:13:39,391 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:13:39,391 - app - INFO - User: tom
+2024-10-10 16:13:39,392 - app - INFO - User: tom
+2024-10-10 16:13:39,393 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:13:39,396 - app - INFO - User: tom
+2024-10-10 16:13:39,444 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:13:39,444 - app - INFO - User: tom
+2024-10-10 16:13:39,539 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:13:39,540 - app - INFO - User: tom
+2024-10-10 16:13:39,722 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:13:39,723 - app - INFO - User: tom
+2024-10-10 16:13:40,287 - app - INFO - Request: GET http://961po03vb491.vicp.fun/history
+2024-10-10 16:13:40,287 - app - INFO - User: tom
+2024-10-10 16:13:40,289 - app - INFO - 用户 'tom' 访问了历史对话页面 - 详情: 历史对话数量: 1
+2024-10-10 16:13:40,289 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 16:13:40,458 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:13:40,458 - app - INFO - User: tom
+2024-10-10 16:13:40,604 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/history.css
+2024-10-10 16:13:40,604 - app - INFO - User: tom
+2024-10-10 16:13:46,112 - app - INFO - Request: GET http://961po03vb491.vicp.fun/conversation/15
+2024-10-10 16:13:46,112 - app - INFO - User: tom
+2024-10-10 16:13:46,115 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 16:13:46,115 - app - INFO - 用户 'tom' 查看了对话详情 - 详情: 对话 ID: 15
+2024-10-10 16:13:46,290 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/conversation_detail.css
+2024-10-10 16:13:46,291 - app - INFO - User: tom
+2024-10-10 16:13:46,478 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/system.jpg
+2024-10-10 16:13:46,478 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:46,478 - app - INFO - User: tom
+2024-10-10 16:13:46,479 - app - INFO - User: tom
+2024-10-10 16:13:47,708 - app - INFO - Request: GET http://961po03vb491.vicp.fun/history
+2024-10-10 16:13:47,708 - app - INFO - User: tom
+2024-10-10 16:13:47,710 - app - INFO - 用户 'tom' 访问了历史对话页面 - 详情: 历史对话数量: 1
+2024-10-10 16:13:47,710 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 1
+2024-10-10 16:13:47,886 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:13:47,886 - app - INFO - User: tom
+2024-10-10 16:13:48,031 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/history.css
+2024-10-10 16:13:48,031 - app - INFO - User: tom
+2024-10-10 16:13:50,806 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:13:50,806 - app - INFO - User: tom
+2024-10-10 16:13:50,807 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:13:51,008 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:13:51,009 - app - INFO - User: tom
+2024-10-10 16:13:51,168 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:13:51,169 - app - INFO - User: tom
+2024-10-10 16:13:51,169 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:13:51,170 - app - INFO - User: tom
+2024-10-10 16:13:51,173 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:13:51,174 - app - INFO - User: tom
+2024-10-10 16:13:51,175 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:13:51,177 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:13:51,177 - app - INFO - User: tom
+2024-10-10 16:13:51,177 - app - INFO - User: tom
+2024-10-10 16:13:51,310 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:13:51,311 - app - INFO - User: tom
+2024-10-10 16:13:51,437 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:13:51,438 - app - INFO - User: tom
+2024-10-10 16:18:23,733 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:18:23,734 - app - INFO - User: tom
+2024-10-10 16:18:23,734 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 16:18:23,886 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:18:23,888 - app - INFO - User: tom
+2024-10-10 16:18:23,888 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:18:24,227 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:18:24,229 - app - INFO - User: tom
+2024-10-10 16:18:24,231 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:18:24,232 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:18:24,232 - app - INFO - User: tom
+2024-10-10 16:18:24,233 - app - INFO - User: tom
+2024-10-10 16:18:24,306 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:18:24,307 - app - INFO - User: tom
+2024-10-10 16:18:24,308 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:18:24,310 - app - INFO - User: tom
+2024-10-10 16:18:24,311 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:18:24,312 - app - INFO - User: tom
+2024-10-10 16:18:24,530 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:18:24,532 - app - INFO - User: tom
+2024-10-10 16:18:24,537 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:18:24,537 - app - INFO - User: tom
+2024-10-10 16:19:02,991 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:19:02,992 - app - INFO - User: tom
+2024-10-10 16:19:02,992 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 16:19:03,126 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:19:03,126 - app - INFO - User: tom
+2024-10-10 16:19:03,127 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:19:03,424 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:19:03,425 - app - INFO - User: tom
+2024-10-10 16:19:03,462 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:19:03,462 - app - INFO - User: tom
+2024-10-10 16:19:03,472 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:19:03,473 - app - INFO - User: tom
+2024-10-10 16:19:03,483 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:19:03,483 - app - INFO - User: tom
+2024-10-10 16:19:03,490 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:19:03,492 - app - INFO - User: tom
+2024-10-10 16:19:03,492 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:19:03,494 - app - INFO - User: tom
+2024-10-10 16:19:03,654 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:19:03,655 - app - INFO - User: tom
+2024-10-10 16:19:03,739 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:19:03,740 - app - INFO - User: tom
+2024-10-10 16:50:34,876 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 16:50:34,877 - app - INFO - User: tom
+2024-10-10 16:50:34,878 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 16:50:35,028 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 16:50:35,028 - app - INFO - User: tom
+2024-10-10 16:50:35,029 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 16:50:35,365 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 16:50:35,366 - app - INFO - User: tom
+2024-10-10 16:50:35,369 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 16:50:35,369 - app - INFO - User: tom
+2024-10-10 16:50:35,389 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 16:50:35,389 - app - INFO - User: tom
+2024-10-10 16:50:35,429 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 16:50:35,430 - app - INFO - User: tom
+2024-10-10 16:50:35,431 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 16:50:35,432 - app - INFO - User: tom
+2024-10-10 16:50:35,453 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 16:50:35,454 - app - INFO - User: tom
+2024-10-10 16:50:35,813 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 16:50:35,813 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 16:50:35,814 - app - INFO - User: tom
+2024-10-10 16:50:35,814 - app - INFO - User: tom
+2024-10-10 17:07:00,041 - app - INFO - Request: GET http://961po03vb491.vicp.fun/
+2024-10-10 17:07:00,042 - app - INFO - User: tom
+2024-10-10 17:07:00,043 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 17:07:00,190 - app - INFO - Request: GET http://961po03vb491.vicp.fun/dashboard
+2024-10-10 17:07:00,191 - app - INFO - User: tom
+2024-10-10 17:07:00,191 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 17:07:00,500 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/css/dashboard.css
+2024-10-10 17:07:00,500 - app - INFO - User: tom
+2024-10-10 17:07:00,510 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/对话.svg
+2024-10-10 17:07:00,511 - app - INFO - User: tom
+2024-10-10 17:07:00,524 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/退出.svg
+2024-10-10 17:07:00,525 - app - INFO - User: tom
+2024-10-10 17:07:00,540 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/时间.svg
+2024-10-10 17:07:00,541 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/uploads/user.jpg
+2024-10-10 17:07:00,541 - app - INFO - User: tom
+2024-10-10 17:07:00,541 - app - INFO - User: tom
+2024-10-10 17:07:00,569 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/累计次数.svg
+2024-10-10 17:07:00,570 - app - INFO - User: tom
+2024-10-10 17:07:01,834 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/历史记录.svg
+2024-10-10 17:07:01,834 - app - INFO - User: tom
+2024-10-10 17:07:02,142 - app - INFO - Request: GET http://961po03vb491.vicp.fun/static/svg/编辑.svg
+2024-10-10 17:07:02,142 - app - INFO - User: tom

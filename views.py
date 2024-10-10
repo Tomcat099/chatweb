@@ -31,6 +31,8 @@ def init_views(db, User, History):
             log_user_action(current_user, "提出了问题", f"问题内容: {question[:50]}...")
             
             answer = generate_answer(question)
+
+            log_user_action(current_user, "回答了问题", f"回答内容: {answer}")
             
             if is_new_conversation or not conversation_id:
                 history = History(username=current_user.username, phone=current_user.phone)

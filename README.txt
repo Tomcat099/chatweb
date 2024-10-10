@@ -6,7 +6,7 @@ qa.py（问答推理模块）
 views.py（其他视图函数）
 utils.py（工具函数）
 
-# 第二次修改
+# 第二次修改,增加来自被人的问答数据及推理脚本
 ./data      # 数据集文件
 ./dict      # 字典文件
 ./prepare_data/datasoider.py      # 网络资讯采集脚本
@@ -18,6 +18,8 @@ chatbot_graph.py            # 问答程序脚本
 answer_search.py            # 
 question_classifier.py      # 问句类型分类脚本
 question_parser.py          # 问句解析脚本
+
+
 
 # 首次使用要输入下面的三条命令
 flask db init

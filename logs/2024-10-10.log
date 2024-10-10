@@ -331,3 +331,130 @@
 2024-10-10 15:10:30,756 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
 2024-10-10 15:10:30,757 - app - INFO - User: tom
 2024-10-10 15:10:30,761 - app - INFO - User: tom
+2024-10-10 15:44:40,963 - app - INFO - Request: GET http://127.0.0.1:8001/
+2024-10-10 15:44:40,963 - app - INFO - User: tom
+2024-10-10 15:44:40,964 - app - INFO - 用户 'tom' 访问了首页，重定向到个人主页
+2024-10-10 15:44:40,977 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 15:44:40,977 - app - INFO - User: tom
+2024-10-10 15:44:40,978 - app - INFO - 用户 'tom' 访问了个人主页
+2024-10-10 15:44:41,026 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 15:44:41,026 - app - INFO - User: tom
+2024-10-10 15:44:41,044 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 15:44:41,044 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:44:41,044 - app - INFO - User: tom
+2024-10-10 15:44:41,044 - app - INFO - User: tom
+2024-10-10 15:44:41,120 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:44:41,121 - app - INFO - User: tom
+2024-10-10 15:44:41,124 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 15:44:41,125 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 15:44:41,125 - app - INFO - User: tom
+2024-10-10 15:44:41,126 - app - INFO - User: tom
+2024-10-10 15:44:41,230 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 15:44:41,230 - app - INFO - User: tom
+2024-10-10 15:44:41,242 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 15:44:41,243 - app - INFO - User: tom
+2024-10-10 15:44:41,319 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 15:44:41,320 - app - INFO - User: tom
+2024-10-10 15:44:45,510 - app - INFO - Request: GET http://127.0.0.1:8001/chat/1
+2024-10-10 15:44:45,510 - app - INFO - User: tom
+2024-10-10 15:44:45,510 - app - INFO - 用户 'tom' 访问了问答界面 - 详情: 用户ID: 1
+2024-10-10 15:44:45,565 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 15:44:45,567 - app - INFO - User: tom
+2024-10-10 15:44:45,576 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 15:44:45,579 - app - INFO - User: tom
+2024-10-10 15:44:45,579 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/clear.svg
+2024-10-10 15:44:45,580 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 15:44:45,580 - app - INFO - User: tom
+2024-10-10 15:44:45,583 - app - INFO - User: tom
+2024-10-10 15:44:45,592 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/script.js
+2024-10-10 15:44:45,592 - app - INFO - User: tom
+2024-10-10 15:44:45,604 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 15:44:45,605 - app - INFO - User: tom
+2024-10-10 15:44:45,630 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:44:45,631 - app - INFO - User: tom
+2024-10-10 15:44:45,636 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 5
+2024-10-10 15:44:45,637 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 5
+2024-10-10 15:44:45,659 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
+2024-10-10 15:44:45,659 - app - INFO - User: tom
+2024-10-10 15:44:47,063 - app - INFO - Request: GET http://127.0.0.1:8001/get_conversation/11
+2024-10-10 15:44:47,064 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:44:47,064 - app - INFO - User: tom
+2024-10-10 15:44:47,064 - app - INFO - User: tom
+2024-10-10 15:44:47,066 - app - INFO - 用户 'tom' 点击了 历史记录项 - 详情: 历史记录ID: 11
+2024-10-10 15:44:47,068 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 11, 用户: tom
+2024-10-10 15:44:47,069 - app - INFO - 用户 'tom' 查看了历史对话 - 详情: 对话 ID: 11
+2024-10-10 15:44:50,537 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:44:50,537 - app - INFO - User: tom
+2024-10-10 15:44:50,538 - app - INFO - 用户 'tom' 点击了 新建对话按钮
+2024-10-10 15:45:07,688 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:45:07,688 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:45:07,689 - app - INFO - User: tom
+2024-10-10 15:45:07,689 - app - INFO - User: tom
+2024-10-10 15:45:07,690 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-10-10 15:45:07,690 - app - INFO - 用户 'tom' 提出了问题 - 详情: 问题内容: 苍耳中毒吃什么...
+2024-10-10 15:45:29,090 - app - INFO - 数据库写入 - 模型: History - 详情: 新建对话 ID: 15, 用户: tom
+2024-10-10 15:45:29,100 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 15, 用户: tom, 新增问答数: 1
+2024-10-10 15:45:29,118 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:45:29,118 - app - INFO - User: tom
+2024-10-10 15:45:29,121 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:45:29,122 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:45:31,665 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:45:31,665 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:45:31,666 - app - INFO - User: tom
+2024-10-10 15:45:31,666 - app - INFO - User: tom
+2024-10-10 15:45:31,667 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-10-10 15:45:31,667 - app - INFO - 用户 'tom' 提出了问题 - 详情: 问题内容: 苍耳中毒是什么疾病...
+2024-10-10 15:45:57,377 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 15:45:57,387 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 15, 用户: tom, 新增问答数: 1
+2024-10-10 15:45:57,435 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:45:57,436 - app - INFO - User: tom
+2024-10-10 15:45:57,439 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:45:57,440 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:46:12,035 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:46:12,035 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:46:12,036 - app - INFO - User: tom
+2024-10-10 15:46:12,036 - app - INFO - User: tom
+2024-10-10 15:46:12,037 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-10-10 15:46:12,038 - app - INFO - 用户 'tom' 提出了问题 - 详情: 问题内容: 苍耳中毒是什么...
+2024-10-10 15:46:51,435 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 15:46:51,443 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 15, 用户: tom, 新增问答数: 1
+2024-10-10 15:46:51,456 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:46:51,457 - app - INFO - User: tom
+2024-10-10 15:46:51,458 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:46:51,459 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:48:40,379 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:48:40,380 - app - INFO - User: tom
+2024-10-10 15:48:40,380 - app - INFO - 用户 'tom' 提出了问题 - 详情: 问题内容: 苍耳中毒是什么...
+2024-10-10 15:48:40,393 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:48:40,393 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 15:48:40,394 - app - INFO - User: tom
+2024-10-10 15:48:40,397 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-10-10 15:48:40,405 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 15, 用户: tom, 新增问答数: 1
+2024-10-10 15:48:40,421 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:48:40,422 - app - INFO - User: tom
+2024-10-10 15:48:40,427 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:48:40,427 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:48:43,017 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:48:43,018 - app - INFO - User: tom
+2024-10-10 15:48:43,019 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:48:43,019 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-10-10 15:48:43,020 - app - INFO - User: tom
+2024-10-10 15:48:43,022 - app - INFO - 用户 'tom' 提出了问题 - 详情: 问题内容: 苍耳中毒是什么疾病...
+2024-10-10 15:48:43,041 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 15:48:43,052 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 15, 用户: tom, 新增问答数: 1
+2024-10-10 15:48:43,063 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:48:43,063 - app - INFO - User: tom
+2024-10-10 15:48:43,065 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:48:43,065 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6
+2024-10-10 15:48:48,619 - app - INFO - Request: POST http://127.0.0.1:8001/log_click
+2024-10-10 15:48:48,619 - app - INFO - Request: POST http://127.0.0.1:8001/ask
+2024-10-10 15:48:48,620 - app - INFO - User: tom
+2024-10-10 15:48:48,620 - app - INFO - User: tom
+2024-10-10 15:48:48,621 - app - INFO - 用户 'tom' 点击了 提交问题按钮
+2024-10-10 15:48:48,621 - app - INFO - 用户 'tom' 提出了问题 - 详情: 问题内容: 苍耳中毒吃什么...
+2024-10-10 15:48:48,643 - app - INFO - 数据库读取 - 模型: History - 详情: 获取对话 ID: 15, 用户: tom
+2024-10-10 15:48:48,652 - app - INFO - 数据库更新 - 模型: History - 详情: 更新对话 ID: 15, 用户: tom, 新增问答数: 1
+2024-10-10 15:48:48,667 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 15:48:48,668 - app - INFO - User: tom
+2024-10-10 15:48:48,671 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 tom 的所有历史记录, 记录数: 6
+2024-10-10 15:48:48,672 - app - INFO - 用户 'tom' 获取历史对话列表 - 详情: 获取到的对话数: 6

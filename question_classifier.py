@@ -9,7 +9,7 @@ import ahocorasick
 class QuestionClassifier:
     def __init__(self):
         cur_dir = '/'.join(os.path.abspath(__file__).split('/')[:-1])
-        #　特征词路径
+        # 特征词路径
         self.disease_path = os.path.join(cur_dir, 'dict/disease.txt')
         self.department_path = os.path.join(cur_dir, 'dict/department.txt')
         self.check_path = os.path.join(cur_dir, 'dict/check.txt')
@@ -18,21 +18,31 @@ class QuestionClassifier:
         self.producer_path = os.path.join(cur_dir, 'dict/producer.txt')
         self.symptom_path = os.path.join(cur_dir, 'dict/symptom.txt')
         self.deny_path = os.path.join(cur_dir, 'dict/deny.txt')
+        
         # 加载特征词
-        self.disease_wds= [i.strip() for i in open(self.disease_path, encoding='utf-8') if i.strip()]
-        self.department_wds= [i.strip() for i in open(self.department_path, encoding='utf-8') if i.strip()]
-        self.check_wds= [i.strip() for i in open(self.check_path, encoding='utf-8') if i.strip()]
-        self.drug_wds= [i.strip() for i in open(self.drug_path, encoding='utf-8') if i.strip()]
-        self.food_wds= [i.strip() for i in open(self.food_path, encoding='utf-8') if i.strip()]
-        self.producer_wds= [i.strip() for i in open(self.producer_path, encoding='utf-8') if i.strip()]
-        self.symptom_wds= [i.strip() for i in open(self.symptom_path, encoding='utf-8') if i.strip()]
-        self.region_words = set(self.department_wds + self.disease_wds + self.check_wds + self.drug_wds + self.food_wds + self.producer_wds + self.symptom_wds)
-        self.deny_words = [i.strip() for i in open(self.deny_path, encoding='utf-8') if i.strip()]
+        self.load_feature_words()
+
         # 构造领域actree
         self.region_tree = self.build_actree(list(self.region_words))
         # 构建词典
         self.wdtype_dict = self.build_wdtype_dict()
         # 问句疑问词
+        self.initialize_question_words()
+
+        print('model init finished ......')
+
+    def load_feature_words(self):
+        self.disease_wds = [i.strip() for i in open(self.disease_path, encoding='utf-8') if i.strip()]
+        self.department_wds = [i.strip() for i in open(self.department_path, encoding='utf-8') if i.strip()]
+        self.check_wds = [i.strip() for i in open(self.check_path, encoding='utf-8') if i.strip()]
+        self.drug_wds = [i.strip() for i in open(self.drug_path, encoding='utf-8') if i.strip()]
+        self.food_wds = [i.strip() for i in open(self.food_path, encoding='utf-8') if i.strip()]
+        self.producer_wds = [i.strip() for i in open(self.producer_path, encoding='utf-8') if i.strip()]
+        self.symptom_wds = [i.strip() for i in open(self.symptom_path, encoding='utf-8') if i.strip()]
+        self.region_words = set(self.department_wds + self.disease_wds + self.check_wds + self.drug_wds + self.food_wds + self.producer_wds + self.symptom_wds)
+        self.deny_words = [i.strip() for i in open(self.deny_path, encoding='utf-8') if i.strip()]
+
+    def initialize_question_words(self):
         self.symptom_qwds = ['症状', '表征', '现象', '症候', '表现']
         self.cause_qwds = ['原因','成因', '为什么', '怎么会', '怎样才', '咋样才', '怎样会', '如何会', '为啥', '为何', '如何才会', '怎么才会', '会导致', '会造成']
         self.acompany_qwds = ['并发症', '并发', '一起发生', '一并发生', '一起出现', '一并出现', '一同发生', '一同出现', '伴随发生', '伴随', '共现']
@@ -51,10 +61,6 @@ class QuestionClassifier:
         self.belong_qwds = ['属于什么科', '属于', '什么科', '科室']
         self.cure_qwds = ['治疗什么', '治啥', '治疗啥', '医治啥', '治愈啥', '主治啥', '主治什么', '有什么用', '有何用', '用处', '用途',
                           '有什么好处', '有什么益处', '有何益处', '用来', '用来做啥', '用来作甚', '需要', '要']
-
-        print('model init finished ......')
-
-        return
 
     '''分类主函数'''
     def classify(self, question):

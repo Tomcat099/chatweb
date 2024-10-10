@@ -3,6 +3,9 @@ from question_classifier import *
 from question_parser import *
 from answer_search import *
 
+classifier = QuestionClassifier()
+parser = QuestionPaser()
+searcher = AnswerSearcher()
 
 qa_database = {
     "你好": "你好！很高兴见到你。",
@@ -30,9 +33,6 @@ def find_best_match(question):
     return best_match if max_similarity > 0.5 else None
 
 def generate_answer(question):
-    classifier = QuestionClassifier()
-    parser = QuestionPaser()
-    searcher = AnswerSearcher()
 
     answer = '您好，我是医药智能助理，希望可以帮到您。如果没答上来，可以规范下用词。祝您身体棒棒！'
     res_classify = classifier.classify(question)

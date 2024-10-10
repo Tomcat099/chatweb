@@ -1,0 +1,43 @@
+2024-10-10 09:45:12,335 - app - INFO - Request: GET http://127.0.0.1:8001/
+2024-10-10 09:45:12,336 - app - INFO - User: ttt
+2024-10-10 09:45:12,337 - app - INFO - 用户 'ttt' 访问了首页，重定向到个人主页
+2024-10-10 09:45:12,355 - app - INFO - Request: GET http://127.0.0.1:8001/dashboard
+2024-10-10 09:45:12,356 - app - INFO - User: ttt
+2024-10-10 09:45:12,357 - app - INFO - 用户 'ttt' 访问了个人主页
+2024-10-10 09:45:12,442 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/dashboard.css
+2024-10-10 09:45:12,444 - app - INFO - User: ttt
+2024-10-10 09:45:12,455 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/对话.svg
+2024-10-10 09:45:12,457 - app - INFO - User: ttt
+2024-10-10 09:45:12,457 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/退出.svg
+2024-10-10 09:45:12,462 - app - INFO - User: ttt
+2024-10-10 09:45:12,522 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/累计次数.svg
+2024-10-10 09:45:12,523 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/时间.svg
+2024-10-10 09:45:12,524 - app - INFO - User: ttt
+2024-10-10 09:45:12,525 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 09:45:12,525 - app - INFO - User: ttt
+2024-10-10 09:45:12,528 - app - INFO - User: ttt
+2024-10-10 09:45:12,713 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/历史记录.svg
+2024-10-10 09:45:12,714 - app - INFO - User: ttt
+2024-10-10 09:45:12,731 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/编辑.svg
+2024-10-10 09:45:12,732 - app - INFO - User: ttt
+2024-10-10 09:45:14,319 - app - INFO - Request: GET http://127.0.0.1:8001/chat/3
+2024-10-10 09:45:14,319 - app - INFO - User: ttt
+2024-10-10 09:45:14,320 - app - INFO - 用户 'ttt' 访问了问答界面 - 详情: 用户ID: 3
+2024-10-10 09:45:14,398 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/style.css
+2024-10-10 09:45:14,399 - app - INFO - User: ttt
+2024-10-10 09:45:14,418 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/user.jpg
+2024-10-10 09:45:14,425 - app - INFO - User: ttt
+2024-10-10 09:45:14,432 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/clear.svg
+2024-10-10 09:45:14,433 - app - INFO - Request: GET http://127.0.0.1:8001/static/css/chat.css
+2024-10-10 09:45:14,435 - app - INFO - User: ttt
+2024-10-10 09:45:14,435 - app - INFO - Request: GET http://127.0.0.1:8001/static/js/script.js
+2024-10-10 09:45:14,436 - app - INFO - User: ttt
+2024-10-10 09:45:14,439 - app - INFO - User: ttt
+2024-10-10 09:45:14,481 - app - INFO - Request: GET http://127.0.0.1:8001/static/uploads/system.jpg
+2024-10-10 09:45:14,482 - app - INFO - User: ttt
+2024-10-10 09:45:14,497 - app - INFO - Request: GET http://127.0.0.1:8001/get_history
+2024-10-10 09:45:14,497 - app - INFO - User: ttt
+2024-10-10 09:45:14,507 - app - INFO - 数据库读取 - 模型: History - 详情: 获取用户 ttt 的所有历史记录, 记录数: 2
+2024-10-10 09:45:14,508 - app - INFO - 用户 'ttt' 获取历史对话列表 - 详情: 获取到的对话数: 2
+2024-10-10 09:45:14,547 - app - INFO - Request: GET http://127.0.0.1:8001/static/svg/delete.svg
+2024-10-10 09:45:14,547 - app - INFO - User: ttt

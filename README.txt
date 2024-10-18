@@ -11,6 +11,14 @@ flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
 
+# 安装MySQL
+docker-compose pull
+docker-compose up -d        # 后台启动
+docker-compose restart      # 重启
+docker-compose down         # 停止服务
+docker-compose ps           # 查看服务状态
+docker-compose logs -f      # 查看日志服务
+
 # 服务器后台启动
 nohup python app.py > output.log 2>&1 &
 ps aux | grep app.py
